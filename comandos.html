@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>GeneralBot</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        
+    </head>
+    <body>
+        <header>
+            <h1>GeneralBot</h1>
+        </header>
+        <nav class="topnav">
+            <a href="index.html">Home</a>
+         
+                <a href="comandos.html">Commands</a>
+         
+        </nav>
+
+        <div>
+           
+         
+            <h3>Commands to GeneralBot</h3>
+            <p>Commands of discord</p>
+        
+        </div>
+        <div class="Titulocomando">
+        <h3>Commands for Users</h3>
+        <h4>Any user can use these commands</h4>
+        </div>
+        <div class="tabela">
+        <table>
+            <tr>
+              <th>Commands</th>
+              <th>What does it do?</th>
+            
+            </tr>
+           <tr>
+               <td><b>;help</b> ,<b>;ajuda</b> or <b>;hp</b></td>
+               <td>Return a list of available commands.</td>
+               
+           </tr>
+           <tr>
+            <td><b>;eu</b></td>
+            <td>Return your user information.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;sobre @*user*</b></td>
+            <td>Return information from other users .</td>
+            
+        </tr>
+        <tr>
+            <td><b>;myinvite</b> or <b>;miv #channel-name</b></td>
+            <td>Creates a link to the channel by the informed ID If ID is empty, creates a link to the current channel.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;ping</b></td>
+            <td>Returns the average bot response time.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;mat</b>, <b>;math</b> or <b>;m mathematical-operation</b></td>
+            <td>Returns the result of a mathematical operation.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;arcade</b></td>
+            <td>Checks if there is any beta game.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;dicio</b>, <b>;dic</b> or <b>;dc "word"</b></td>
+            <td>Search for the definition or classification of a word in Portuguese [br] or English [us].</td>
+            
+        </tr>
+
+        <tr>
+            <td><b>;translate</b> or <b>;traduzir</b> or <b>;trans language text</b></td>
+            <td>None.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;sortnum None</b> or <b>;sortenum None</b></td>
+            <td>None.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;sort None</b>, <b>;sorte None</b>, <b>;sortear None</b>, <b>;sorteio None</b>, <b>;escolher None</b>, <b>;choose None </b>or <b>;pick None</b></td>
+            <td>None.</td>
+            
+        </tr>
+
+
+
+        <tr>
+            <td><b>;staffajuda "text"</b> or <b>;sta "text"</b></td>
+            <td>Send a message to the staff channel.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;meajude</b> or <b>;ma</b></td>
+            <td>Help the bot's creators.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;botinvite @bot-name</b> or <b>;bi @bot-name</b></td>
+            <td>Creates an invitation link to another bot.</td>
+            
+        </tr>
+        <tr>
+            <td><b>[game]</b> <b>;dice</b></td>
+            <td>Dice game - get more points if all data are equal.</td>
+            
+        </tr>
+        <tr>
+            <td><b>[game]</b> <b>;pedir</b></td>
+            <td>Receive your initial edinaldo (in-game coins).</td>
+            
+        </tr>
+        <tr>
+            <td><b>[game]</b> <b>;desafiar @user</b> or <b>;de @user</b></td>
+            <td>Challenge a user in the tic-tac-toe game.</td>
+            
+        </tr>
+        <tr>
+            <td><b>[game]</b> <b>;play number</b> or <b>;p number</b></td>
+            <td>Mark a position in the tic-tac-toe game The numbers range from 1 to 9.</td>
+            
+        </tr>
+        <tr>
+            <td><b>[game]</b> <b>;desistir</b> or <b>;dr</b></td>
+            <td>Give up of the tic-tac-toe game.</td>
+            
+        </tr>
+          </table>
+          
+
+        </div>
+        <div class="Titulocomando">
+        <h3>Commands for staff</h3>
+        <h4>Staffers must have permission to "channel manager"</h4>
+        </div>
+        <div class="tabela">
+        <table>
+            <tr>
+                <th>Commands</th>
+                <th>What does it do?</th>
+              
+              </tr>
+
+              <tr>
+                <td><b>;clear number</b></td>
+                <td>Delete a certain number of messages.</td>
+                
+            </tr>
+            <tr>
+             <td><b>;clear_all</b></td>
+             <td>Delete all messages from a channel.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;invites </b>or <b>;iv</b></td>
+             <td>Lists user invites.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;lock @role #channel-name</b></td>
+             <td>Locks a channel, except for "@role" If "#channel-name" is not informed, the current channel will be blocked You can also use only <b>;lock to lock for everyone.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;unlock @role #channel-name</b></td>
+             <td>Unlocks a channel, except for "@role" If "#channel-name" is not informed, the current channel will be blocked You can also use only <b>;unlock to unlock for everyone.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;defstaff #channel-name </b>or <b>;dfc #channel-name</b></td>
+             <td>Defines a channel for users to request help from the staff.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;udefstaff #channel-name </b>or <b>;udfc #channel-name</b></td>
+             <td>Removes the staff help channel.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;defin #channel-name </b>or <b>;dfi #channel-name</b></td>
+             <td>Set the user input channel.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;udefin #channel-name </b>or <b>;udi #channel-name</b></td>
+             <td>Defines the channel as not being user input.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;defout #channel-name </b>or <b>;dfo #channel-name</b></td>
+             <td>Sets the user output channel.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;udefout #channel-name </b>or <b>;udo #channel-name</b></td>
+             <td>Defines the channel as not being an user output.</td>
+             
+         </tr>
+         <tr>
+            <td><b>;defban #channel-name</b></td>
+            <td>Sets a channel to display banned users.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;udefban #channel-name</b></td>
+            <td>Defines the channel as not being banned users.</td>
+            
+        </tr>
+         <tr>
+             <td><b>;channelvname #channel-name "new-name" </b>or <b>;chvn  #channel-name "new-name"</b></td>
+             <td>Renames a voice channel to "{'Sets the user output channel'}".</td>
+             
+         </tr>
+         <tr>
+             <td><b>;channeltname #channel-name "new-name" </b>or <b>;chtn  #channel-name "new-name"</b></td>
+             <td>Renames a text channel to "{'Sets the user output channel'}".</td>
+             
+         </tr>
+         <tr>
+             <td><b>;statuschannel </b>or <b>;sch</b></td>
+             <td>Creates status channels, which show the number of users and bots on the server.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;udefstatus </b>or <b>;uds</b></td>
+             <td>Removes status channels.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;sorterole @cargo </b>or <b>;sr *@cargo*</b></td>
+             <td>Randomly selects a user who has a specific role.</td>
+             
+         </tr>
+           </table>
+
+        </div>
+        <div class="Titulocomando">
+        <h3>Commands for admins</h3>
+        <h4>Users must have permission from "Administrator"</h4>
+        </div>
+        <div class="tabela">
+        <table>
+            <tr>
+                <th>Commands</th>
+                <th>What does it do?</th>
+              
+              </tr>
+
+              <tr>
+                <td><b>;allmembers </b>or <b>;am</b></td>
+                <td>Displays the number of users and bots on the server.</td>
+                
+            </tr>
+            <tr>
+             <td><b>;ban @user </b>or <b>;ban @user "reason"</b></td>
+             <td>Ban a user.</td>
+             
+         </tr>
+         <tr>
+            <td><b>;unban ID-user</b></td>
+            <td>Unban a user.</td>
+            
+        </tr>
+         <tr>
+             <td><b>;kick @user </b>or <b>;kick @user "reason"</b></td>
+             <td>Kick a user.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;mkch "category" channel-name</b></td>
+             <td>Creates a normal text channel.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;mkchv "category" channel-name</b></td>
+             <td>Creates a normal voice channel.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;mkpch "category" channel-name</b></td>
+             <td>Creates a secret text channel.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;mkpchv "category" channel-name</b></td>
+             <td>Creates a secret voice channel.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;delch "category"</b></td>
+             <td>DDeletes a category and all existing channels in the same.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;remove_roles @user @role </b>or <b>;rmr @user @role</b></td>
+             <td>Removes an @{'role'} role from the user @user.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;setprefix prefix</b></td>
+             <td>Changes the prefix of the bot (ex. <b>;setprefix p!)</td>
+             
+         </tr>
+         <tr>
+             <td><b>;remind DD/MM/YYYY @user @role </b>or <b>;rd DD/MM/YYYY @user @role</b></td>
+             <td>Adds a temporary role to the user until the date DD/MM/YYYY</td>
+             
+         </tr>
+         <tr>
+             <td><b>;addroles @oldrole @newrole </b>or <b>;adr @oldrole @newrole</b></td>
+             <td>Adds an @{'newrole'} role to users who have an @{'oldrole'} role.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;adduser_roles @user @role </b>or <b>;adur @user @role</b></td>
+             <td>Adds an @{'role'} role to the @user user.</td>
+             
+         </tr>
+         <tr>
+             <td><b>;wellcome channel-name </b>or <b>;wcm channel-name</b></td>
+             <td>Defines a channel as a record by reaction. You must create a channel just for that and a role with the name "Membro" </b>or "Member".</td>
+             
+         </tr>
+         <tr>
+            <td><b>;udefwellcome </b>or <b>;udfw</b></td>
+            <td>Removes the bot as an authentication method on the welcome channel.</td>
+            
+        </tr>
+         <tr>
+             <td><b>;reactionrole @role emoji </b>or <b>;rr @role emoji</b></td>
+             <td>Reaction roles. You can enter up to 10 roles at a time..</td>
+             
+         </tr>
+         <tr>
+             <td><b>;defchatguild channel-name </b>or <b>;dfcg channel-name</b></td>
+             <td>Defines a channel as chatguild. With this channel, owners and admins will be able to communicate with other owners and admins.</td>
+             
+         </tr>
+         <tr>
+            <td><b>;udefchatguild channel-name </b>or <b>;udcg channel-name</b></td>
+            <td>Defines a channel as not being a chatguild.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;listguild </b>or <b>;lgd</b></td>
+            <td>Displays the possible chatguild servers.</td>
+            
+        </tr>
+        <tr>
+            <td><b>;chatguild ID-server "Message" </b>or <b>;cgd ID-server "Message"</b></td>
+            <td>Sends a message to the server informed by the ID.</td>
+            
+        </tr>
+        
+           </table>
+
+           <div class="Titulocomando">
+            <h3>Commands for game</h3>
+            <h4>Any user can use these commands</h4>
+            </div>
+            <div class="tabela">
+            <table>
+                <tr>
+                    <th>Commands</th>
+                    <th>What does it do?</th>
+                  
+                  </tr>
+
+                  <tr>
+                    <td><b>?pedir</b></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td><b>?minerar</b> or <b>?mine</b></td>
+                    <td></td>
+                    
+                </tr>
+                
+                <tr>
+                    <td><b>?emp</b> or <b>?loan</b></td>
+                    <td></td>
+                    
+                </tr>
+
+                <tr>
+                    <td><b>?poup</b> or <b>?sav</b></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td><b>?doar</b> or <b>?donate</b></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td><b>?perdao</b> or <b>?forgiveness</b></td>
+                    <td></td>
+                    
+                </tr>
+
+                <tr>
+                    <td><b>?investir</b> or <b>?inv</b></td>
+                    <td></td>
+                    
+                </tr>
+
+                <tr>
+                    <td><b>?acelerar</b> or <b>?ac</b></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td><b>?cargos</b> or <b>?buyroles</b></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td><b>?desafiar @user</b> or <b>?de @user</b></td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td><b>?play number</b> or <b>?p number</b></td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor est a ante posuere, non scelerisque libero tincidunt. Nullam sed cursus massa. Nullam placerat nunc urna, vitae gravida neque feugiat sed. Cras gravida nibh velit, vitae dignissim augue dignissim vel. Nulla semper vulputate suscipit. Cras lacinia et ante ac aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas viverra lobortis tellus, vitae pharetra nisi fringilla at.</td>
+                    
+                </tr>
+
+                <tr>
+                    <td><b>?desistir</b> or <b>?dr</b></td>
+                    <td></td>
+                    
+                </tr>
+
+
+
+
+                   </table>
+
+
+
+</div>
+
+
+
+
+        <footer>
+            <div class="link">
+                <table>
+                    <tbody><tr>
+                        <th>
+                            <a href="https://discord.gg/Jdh9Bdr4cV">
+                            <img src="img/discordicon.png" class="icon">
+                            </a>
+                        </th>
+                      <th>
+                      
+                  <a href="https://discord.gg/Jdh9Bdr4cV">
+<h2>Server BosonsHiggs</h2>
+                                  
+                              </a>
+                              
+                              </th>
+                      <th>
+                        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+    <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+    <input type="hidden" name="currency" value="BRL" />
+    <input type="hidden" name="receiverEmail" value="iagolirapassos2@gmail.com" />
+    <input type="hidden" name="iot" value="button" />
+    <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/209x48-doar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+    </form>
+    <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+
+                      </th>
+                  
+                    </tr>
+                    
+                   
+                  </tbody></table>
+                  <h3>BosonsHiggs Team(bot's creator) and Kauã(kinguim1000)(site's creator)</h3>
+                </div>
+            
+
+                        
+            
+        </footer>
+    </body>
+</html>
