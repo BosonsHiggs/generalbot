@@ -3,7 +3,7 @@
 html,
 body {
     margin: 0;
-    background-color: rgb(2, 10, 46);
+    background-color: rgb(54,57,63);
     font-family: sans-serif;
     
 }
@@ -46,19 +46,31 @@ body {
 .tabela{
     color: white;  
     text-align: -webkit-center;
+    background: rgb(47,49,54);
     width: 95vw;
     margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
+  border: 2px solid rgb(47,49,54);
+    border-radius: 9px;
 }
 td, th .tabela{
-border: 1px solid #dddddd;
+/*border: 1px solid #dddddd;*/
 text-align: center;
 width: 50vw;
 }
 .Titulocomando{
-    align-items: center;
+/*    align-items: center;
     color: white;    
+*/
+color: white;  
+    text-align: -webkit-center;
+    background: rgb(30,32,35);
+    width: 95vw;
+    margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(30,32,35);
+    border-radius: 9px;
+    margin-bottom: 5px;
 }
 .dropdown-content a {
     color: black;
