@@ -1,85 +1,95 @@
+<!-- GeneralBot Index HTML by JvNeto -->
+<!-- Date: 19/06/2021 -->
 <!DOCTYPE html>
 <html>
-    <head>
-        
-        <title>GeneralBot</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        
-    </head>
-    <body>
-        <header>
-            <h1>GeneralBot</h1>
-        </header>
-        <nav class="topnav">
-            <a href="index.html">Home</a>
-         
-                <a href="comandos.html">Commands</a>
-         
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeneralBot</title>
 
-        <div>
-           
-         
-            <h3>This is the GeneralBot</h3>
-            <p>It does everything do you want</p>
-        
+    <!-- FONT -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/css/index.css" />
+
+    <!-- JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/js/menu-manager.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-options-container">
+          <div class="header-logo">
+            <img src="./assets/img/logo.png" alt="" />
+            <span>GeneralBot</span>
+          </div>
+          <button id="MenuButtom" class="header-menu-button" onclick="MenuManager()">
+            <i class="fas fa-bars"></i>
+          </button>
         </div>
-        ​
-        <section>
-            <div class="info">
-                <h1>info</h1>
-                <p>The GeneralBot is an admin bot with commands for Admins, Staff and common Users.</p>
-            </div>
-            <article>
-                <h1>GeneralBot</h1>
-                
-                <p></p>
-                <a href="https://discord.com/api/oauth2/authorize?client_id=741788327572668486&permissions=8&scope=bot%20applications.commands">
-                <button class="button">Click here to add the bot to your server</button>
-                </a>
-            </article>
-        </section>
-        <footer>
-            <div class="link">
-                <table>
-                    <tbody><tr>
-                        <th>
-                            <a href="https://discord.gg/tEjdCcgpbm">
-                            <img src="img/discordicon.png" class="icon">
-                            </a>
-                        </th>
-                      <th>
-                      
-                  <a href="https://discord.gg/tEjdCcgpbm">
-                                  <h2>Server BosonsHiggs</h2>
-                                  
-                              </a>
-                              
-                              </th>
-                              <th>
-                                <form action="https://www.paypal.com/donate" method="post" target="_top">
-                                    <input type="hidden" name="business" value="NJTFGFG7QKAGG" />
-                                    <input type="hidden" name="item_name" value="Doação para o bot GeneralBot" />
-                                    <input type="hidden" name="currency_code" value="BRL" />
-                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                                    <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
-                                    </form>
-        
-                              </th>
-                      
-                  
-                    </tr>
-                    
-                   
-                  </tbody></table>
-                  <h3>BosonsHiggs Team(bot's creator) and Kauã Nichioka(kinguim1000)(site's creator)</h3>
-                </div>
-            
-
-                        
-            
-        </footer>
-    </body>
+        <div id="HeaderMenuContainer" class="header-menu-container">
+          <div class="header-options">
+            <a href="#" class="select option-init">Início</a>
+            <!-- <a href="#">Comandos</a>
+            <a href="#">Doar</a> -->
+          </div>
+          <div class="header-state">
+            <i class="fas fa-robot"></i>
+            <h5>Status:</h5>
+            <h6 class="online">ONLINE</h6>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="body">
+        <h1>Este é o GeneralBot!</h1>
+        <p>
+          O GeneralBot é um bot de administrador com comandos para
+          administradores, funcionários e usuários comuns.
+        </p>
+        <img src="./assets/img/ChatRobot.svg" alt="" />
+        <div class="contant-button">
+          <a
+            href="https://discord.com/api/oauth2/authorize?client_id=741788327572668486&permissions=8&scope=bot%20applications.commands"
+            class="button-add-discord"
+          >
+            <i class="fab fa-discord"></i>
+            <h6>Adicionar GeneralBot ao seu servidor</h6>
+          </a>
+          <!-- <a href="#" class="button-resurces">
+            <h6>Ver Recursos</h6>
+          </a> -->
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
