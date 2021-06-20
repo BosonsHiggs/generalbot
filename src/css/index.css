@@ -533,6 +533,10 @@ footer .container .top-content .doar-content a span {
 }
 footer .container .bottom-content {
   margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 footer .container .bottom-content .info h3 {
   font-weight: bold;
@@ -552,6 +556,29 @@ footer .container .bottom-content .info h6 {
   font-style: italic;
   font-size: 15px;
   color: #fff;
+}
+
+footer .container .bottom-content .lang-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+footer .container .bottom-content .lang-container .lang-content {
+  padding: 10px;
+  background-color: #1e2023;
+  border-radius: 15px;
+  cursor: pointer;
+}
+footer .container .bottom-content .lang-container .lang-content img {
+  width: 35px;
+}
+footer .container .bottom-content .lang-container .lang-content span {
+  font-weight: bold;
+  font-size: 15px;
+  color: #04a558;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -581,6 +608,18 @@ footer .container .bottom-content .info h6 {
     width: 100%;
   }
   footer .container .bottom-content .info p {
+    width: 100%;
+  }
+  footer .container .bottom-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  footer .container .bottom-content .lang-container {
+    width: 100%;
+    margin-top: 10px;
+  }
+  footer .container .bottom-content .lang-container .lang-content {
     width: 100%;
   }
 }
