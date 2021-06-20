@@ -1,4 +1,4 @@
-<!-- GeneralBot Index HTML by JvNeto -->
+<!-- GeneralBot Commands HTML by JvNeto -->
 <!-- Date: 19/06/2021 -->
 <!DOCTYPE html>
 <html>
@@ -23,7 +23,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./src/css/index.css?version=1" />
+    <link rel="stylesheet" href="./src/css/commands.css" />
 
     <!-- JS -->
     <script
@@ -37,7 +37,7 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.js"
       integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
       crossorigin="anonymous"
     ></script>
@@ -62,7 +62,7 @@
         <div id="HeaderMenuContainer" class="header-menu-container">
           <div class="header-options">
             <a href="#" class="select option-init">Início</a>
-            <a href="commands.html">Comandos</a>
+            <a href="#">Comandos</a>
             <a href="#">Doar</a>
           </div>
           <div class="header-state">
@@ -76,23 +76,29 @@
     <div class="content-body">
       <div class="container">
         <div class="body">
-          <h1>Este é o GeneralBot!</h1>
-          <p>
-            O GeneralBot é um bot de administrador com comandos para
-            administradores, funcionários e usuários comuns.
-          </p>
-          <img src="./assets/img/ChatRobot.svg" alt="" />
-          <div class="contant-button">
-            <a
-              href="https://discord.com/api/oauth2/authorize?client_id=741788327572668486&permissions=8&scope=bot%20applications.commands"
-              class="button-add-discord"
-            >
-              <i class="fab fa-discord"></i>
-              <h6>Adicionar GeneralBot ao seu servidor</h6>
-            </a>
-            <a href="#" class="button-resurces">
-              <h6>Ver Recursos</h6>
-            </a>
+          <div class="commands-container">
+            <div class="commands-header">
+              <div class="commands-header-options user userBorder">
+                Usuários
+              </div>
+              <div class="commands-header-options games">Jogos</div>
+              <div class="commands-header-options staff">Ajudantes</div>
+              <div class="commands-header-options admins">Administração</div>
+            </div>
+            <div class="commands-body">
+              <h5>Permissão:</h5>
+              <h6>Qualquer usuário pode usar esses comandos.</h6>
+              <div class="commands">
+                <div class="commands-line">
+                  <code>?help</code>
+                  <span>ou</span>
+                  <code>?ajuda</code>
+                  <span>ou</span>
+                  <code>?hp</code>
+                </div>
+                <h6>Retorne uma lista de comandos disponíveis.</h6>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -111,7 +117,7 @@
                 Gostou? Para nos incentivar e fazer com que o projeto continue
                 faça uma doação
               </p>
-              <a href="commands.html"
+              <a href="#"
                 ><i class="fab fa-cc-paypal"></i>
                 <span>Fazer uma doação</span></a
               >
