@@ -36,6 +36,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 /* Header */
@@ -276,13 +281,23 @@ header .container .header-menu-container .header-state h6 {
 }
 
 /* Body */
+.content-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container .body {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 0px;
+  padding-top: 80px;
 }
 
 .container .body h1 {
@@ -361,6 +376,18 @@ header .container .header-menu-container .header-state h6 {
   margin: 0px;
   padding: 0px;
 }
+
+@media screen and (max-width: 768px) {
+  .container .body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 120px;
+  }
+}
 @media screen and (max-width: 470px) {
   .container .body {
     width: 100%;
@@ -404,5 +431,156 @@ header .container .header-menu-container .header-state h6 {
   }
   .container .body .contant-button .button-resurces h6 {
     font-size: 11px;
+  }
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f3136;
+  margin-top: 50px;
+}
+footer .container {
+  width: 100%;
+  /* background-color: red; */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+footer .container .top-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .top-content .discord-servidor-support {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  padding: 11px;
+  border-radius: 10px;
+}
+footer .container .top-content .discord-servidor-support i {
+  font-size: 75px;
+  color: #7289da;
+}
+footer .container .top-content .discord-servidor-support i {
+  font-size: 60px;
+}
+footer .container .top-content .discord-servidor-support .text-aling {
+  margin-left: 10px;
+}
+footer .container .top-content .discord-servidor-support .text-aling h6 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #36393f;
+  margin: 0px;
+  padding: 0px;
+}
+footer .container .top-content .discord-servidor-support .text-aling a {
+  border: none;
+  border-radius: 4px;
+  background-color: #1e2023;
+  font-weight: bold;
+  font-size: 12px;
+  color: #7289da;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+footer .container .top-content .doar-content {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+footer .container .top-content .doar-content p {
+  font-weight: bold;
+  font-size: 15px;
+  color: #99aab5;
+}
+footer .container .top-content .doar-content a {
+  border-radius: 6px;
+  background: #facb7b;
+  padding: 5px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+footer .container .top-content .doar-content a:hover {
+  background: #fab847;
+}
+footer .container .top-content .doar-content a i {
+  font-size: 25px;
+  color: rgb(27, 25, 25);
+}
+footer .container .top-content .doar-content a span {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(27, 25, 25);
+  margin-left: 10px;
+}
+footer .container .bottom-content {
+  margin-top: 30px;
+}
+footer .container .bottom-content .info h3 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  color: #fff;
+}
+footer .container .bottom-content .info p {
+  width: 50%;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 18px;
+  color: #99aab5;
+}
+footer .container .bottom-content .info h6 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  footer .container .top-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .container .top-content .discord-servidor-support {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    padding: 11px;
+    border-radius: 10px;
+  }
+  footer .container .top-content .doar-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 25px;
+  }
+  footer .container .top-content .doar-content a {
+    width: 100%;
+  }
+  footer .container .bottom-content .info p {
+    width: 100%;
   }
 }

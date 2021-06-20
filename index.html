@@ -23,7 +23,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="stylesheet" href="./src/css/index.css?version=1" />
 
     <!-- JS -->
     <script
@@ -51,15 +51,19 @@
             <img src="./assets/img/logo.png" alt="" />
             <span>GeneralBot</span>
           </div>
-          <button id="MenuButtom" class="header-menu-button" onclick="MenuManager()">
+          <button
+            id="MenuButtom"
+            class="header-menu-button"
+            onclick="MenuManager()"
+          >
             <i class="fas fa-bars"></i>
           </button>
         </div>
         <div id="HeaderMenuContainer" class="header-menu-container">
           <div class="header-options">
             <a href="#" class="select option-init">Início</a>
-            <!-- <a href="#">Comandos</a>
-            <a href="#">Doar</a> -->
+            <a href="#">Comandos</a>
+            <a href="#">Doar</a>
           </div>
           <div class="header-state">
             <i class="fas fa-robot"></i>
@@ -69,27 +73,62 @@
         </div>
       </div>
     </header>
-    <div class="container">
-      <div class="body">
-        <h1>Este é o GeneralBot!</h1>
-        <p>
-          O GeneralBot é um bot de administrador com comandos para
-          administradores, funcionários e usuários comuns.
-        </p>
-        <img src="./assets/img/ChatRobot.svg" alt="" />
-        <div class="contant-button">
-          <a
-            href="https://discord.com/api/oauth2/authorize?client_id=741788327572668486&permissions=8&scope=bot%20applications.commands"
-            class="button-add-discord"
-          >
-            <i class="fab fa-discord"></i>
-            <h6>Adicionar GeneralBot ao seu servidor</h6>
-          </a>
-          <!-- <a href="#" class="button-resurces">
-            <h6>Ver Recursos</h6>
-          </a> -->
+    <div class="content-body">
+      <div class="container">
+        <div class="body">
+          <h1>Este é o GeneralBot!</h1>
+          <p>
+            O GeneralBot é um bot de administrador com comandos para
+            administradores, funcionários e usuários comuns.
+          </p>
+          <img src="./assets/img/ChatRobot.svg" alt="" />
+          <div class="contant-button">
+            <a
+              href="https://discord.com/api/oauth2/authorize?client_id=741788327572668486&permissions=8&scope=bot%20applications.commands"
+              class="button-add-discord"
+            >
+              <i class="fab fa-discord"></i>
+              <h6>Adicionar GeneralBot ao seu servidor</h6>
+            </a>
+            <a href="#" class="button-resurces">
+              <h6>Ver Recursos</h6>
+            </a>
+          </div>
         </div>
       </div>
+      <footer>
+        <div class="container">
+          <div class="top-content">
+            <div class="discord-servidor-support">
+              <i class="fab fa-discord"></i>
+              <div class="text-aling">
+                <h6>Entre em nosso servidor no discord para suporte!</h6>
+                <a href="#">Entrar no servidor</a>
+              </div>
+            </div>
+            <div class="doar-content">
+              <p>
+                Gostou? Para nos incentivar e fazer com que o projeto continue
+                faça uma doação
+              </p>
+              <a href="#"
+                ><i class="fab fa-cc-paypal"></i>
+                <span>Fazer uma doação</span></a
+              >
+            </div>
+          </div>
+          <div class="bottom-content">
+            <div class="info">
+              <h3>GeneralBot</h3>
+              <p>
+                O GeneralBot é um bot de administrador com comandos para
+                administradores, funcionários e usuários comuns.
+              </p>
+              <h6>Copyright © 2020 - 2021 GeneralBot</h6>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
