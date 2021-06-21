@@ -318,6 +318,8 @@ header .container .header-menu-container .header-state h6 {
   color: #a1a4a7;
   padding: 18px;
   cursor: pointer;
+  background-color: unset;
+  border: none;
 }
 
 .user {
@@ -348,6 +350,12 @@ header .container .header-menu-container .header-state h6 {
   padding: 15px;
   /* background-color: red; */
 }
+.container .body .commands-container .commands-body .commands-loader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container .body .commands-container .commands-body h5 {
   font-weight: bold;
   font-size: 20px;
@@ -375,6 +383,7 @@ header .container .header-menu-container .header-state h6 {
   justify-content: center;
   align-items: center;
 }
+
 .container
   .body
   .commands-container

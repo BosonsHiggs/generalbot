@@ -1,0 +1,19 @@
+[
+  {
+    "permission": "Qualquer usuário pode usar esses comandos.",
+    "commands": [
+      {
+        "commands": ["?help", "?ajuda", "?hp"],
+        "descriptions": "Retorne uma lista de comandos disponíveis."
+      },
+      {
+        "commands": ["?help", "?ajuda", "?hp"],
+        "descriptions": "Retorne um teste"
+      },
+      {
+        "commands": ["?help"],
+        "descriptions": "Retorne um teste"
+      }
+    ]
+  }
+]
