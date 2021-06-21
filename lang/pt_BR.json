@@ -1,0 +1,28 @@
+{
+  "INDEX": {
+    "Any user can use these commands": "Qualquer usuário pode usar esses comandos.",
+    "Staffers must have permission to \"channel manager\"": "Os funcionários devem ter permissão para \"gerente de canal\"",
+    "Users must have permission from \"Administrator\"": "Os usuários devem ter permissão de \"Administrador\""
+  },
+  "COMMANDS": {
+    "USERS": {
+      "Return a list of available commands.": "Retorne uma lista de comandos disponíveis.",
+      "Return your user information.": "Retorne suas informações de usuário.",
+      "Return information from other users.": "Retorne informações de outros usuários.",
+      "Creates a link to the channel by the informed ID If ID is empty, creates a link to the current channel.": "Cria um link para o canal pelo ID informado. Se o ID estiver vazio, cria um link para o canal atual.",
+      "Returns the average bot response time.": "Retorna o tempo médio de resposta do bot.",
+      "Returns the result of a mathematical operation.": "Retorna o resultado de uma operação matemática.",
+      "Checks if there is any beta game.": "Verifica se existe algum jogo beta.",
+      "Search for the definition or classification of a word in Portuguese [br] or English [us].": "Pesquise a definição ou classificação de uma palavra em português [br] ou inglês [us].",
+      "Translate a word into Portuguese[br].": "Traduza uma palavra para o português [br].",
+      "Draws a number between a range (eg. sortnum 1-10).": "Desenha um número entre um intervalo (por exemplo, sortnum 1-10).",
+      "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple).": "Desenhe uma palavra entre outras. Não se esqueça de separar com uma vírgula! (ex. tipo uva, pêra, maçã).",
+      "Send a message to the staff channel.": "Envie uma mensagem para o canal da equipe.",
+      "Help the bot's creators.": "Ajude os criadores do bot.",
+      "Creates an invitation link to another bot.": "Cria um link de convite para outro bot."
+    },
+    "GAMES": {},
+    "STAFF": {},
+    "ADMINS": {}
+  }
+}

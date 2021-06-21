@@ -1,11 +1,6 @@
 [
   {
-    "permission": "Qualquer usuário pode usar esses comandos.",
-    "commands": [
-      {
-        "commands": ["?help", "?ajuda", "?hp"],
-        "descriptions": "Retorne um teste"
-      }
-    ]
+    "permission": "Staffers must have permission to \"channel manager\"",
+    "commands": []
   }
 ]

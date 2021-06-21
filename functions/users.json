@@ -1,18 +1,70 @@
 [
   {
-    "permission": "Qualquer usuário pode usar esses comandos.",
+    "permission": "Any user can use these commands",
     "commands": [
       {
         "commands": ["?help", "?ajuda", "?hp"],
-        "descriptions": "Retorne uma lista de comandos disponíveis."
+        "descriptions": "Return a list of available commands."
       },
       {
-        "commands": ["?help", "?ajuda", "?hp"],
-        "descriptions": "Retorne um teste"
+        "commands": ["?eu"],
+        "descriptions": "Return your user information."
       },
       {
-        "commands": ["?help"],
-        "descriptions": "Retorne um teste"
+        "commands": ["?sobre @*user*"],
+        "descriptions": "Return information from other users."
+      },
+      {
+        "commands": ["?myinvite", "?miv #channel-name"],
+        "descriptions": "Creates a link to the channel by the informed ID If ID is empty, creates a link to the current channel."
+      },
+      {
+        "commands": ["?ping"],
+        "descriptions": "Returns the average bot response time."
+      },
+      {
+        "commands": ["?mat", "?math", "?m mathematical-operation"],
+        "descriptions": "Returns the result of a mathematical operation."
+      },
+      {
+        "commands": ["?arcade"],
+        "descriptions": "Checks if there is any beta game."
+      },
+      {
+        "commands": ["?dicio", "?dic", "?dc \"word\""],
+        "descriptions": "Search for the definition or classification of a word in Portuguese [br] or English [us]."
+      },
+      {
+        "commands": ["?translate", "?traduzir", "?trans language text"],
+        "descriptions": "Translate a word into Portuguese[br]."
+      },
+      {
+        "commands": ["?sortnum None interval", "?sortenum None"],
+        "descriptions": "Draws a number between a range (eg. sortnum 1-10)."
+      },
+      {
+        "commands": [
+          "?sort None",
+          "?sorte None",
+          "?sortear None",
+          "?sorteio None",
+          "?escolher None",
+          "?choose None",
+          "?pick None"
+        ],
+        "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
+      },
+      {
+        "commands": ["?staffajuda \"text\"", "?sta \"text\""],
+        "descriptions": "Send a message to the staff channel."
+      },
+      {
+        "commands": ["?meajude", "?ma"],
+        "descriptions": "Help the bot's creators."
+      },
+      {
+        "commands": ["?botinvite @bot-name", "?bi @bot-name"],
+        "descriptions": "Creates an invitation link to another bot."
       }
     ]
   }

@@ -1,11 +1,6 @@
 [
   {
-    "permission": "Qualquer usuário pode usar esses comandos.",
-    "commands": [
-      {
-        "commands": ["?help"],
-        "descriptions": "Retorne um teste"
-      }
-    ]
+    "permission": "Any user can use these commands",
+    "commands": []
   }
 ]
