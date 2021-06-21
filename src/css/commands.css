@@ -433,6 +433,24 @@ header .container .header-menu-container .header-state h6 {
     margin-top: 0px;
     padding-top: 120px;
   }
+  .container
+    .body
+    .commands-container
+    .commands-header
+    .commands-header-options {
+    font-weight: bold;
+    font-size: 15px;
+    color: #a1a4a7;
+    padding: 15px;
+    cursor: pointer;
+    background-color: unset;
+    border: none;
+  }
+  .container .body .commands-container .commands-body .commands {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
 @media screen and (max-width: 470px) {
   .container .body {
@@ -443,6 +461,27 @@ header .container .header-menu-container .header-state h6 {
     align-items: center;
     margin-top: 0px;
     padding-top: 80px;
+  }
+  .container .body .commands-container .commands-header {
+    width: 100%;
+    height: auto;
+    background-color: #1e2023;
+    border-radius: 17px 17px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container
+    .body
+    .commands-container
+    .commands-header
+    .commands-header-options {
+    font-weight: bold;
+    font-size: 15px;
+    color: #a1a4a7;
+    padding: 10px;
+    cursor: pointer;
+    background-color: unset;
+    border: none;
   }
 }
 

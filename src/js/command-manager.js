@@ -3,7 +3,7 @@ const deployState = true;
 
 if (pathOrigin == "http://localhost" || deployState == false)
   pathOrigin = `${pathOrigin}/Projects/generalbot/functions`;
-else pathOrigin = `${pathOrigin}/functions`;
+else pathOrigin = `${pathOrigin}/generalbot/functions`;
 
 const ManagerLoader = (state) => {
   document.getElementById("ContainerBodyCommands").innerHTML = "";
