@@ -1,4 +1,4 @@
-<!-- GeneralBot Commands HTML by JvNeto -->
+<!-- GeneralBot Index HTML by JvNeto -->
 <!-- Date: 19/06/2021 -->
 <!DOCTYPE html>
 <html>
@@ -23,7 +23,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./src/css/commands.css?versions=1" />
+    <link rel="stylesheet" href="./src/css/index.css?version=1" />
 
     <!-- JS -->
     <script
@@ -41,14 +41,7 @@
       integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
     <script src="./src/js/menu-manager.js"></script>
-    <script src="./src/js/command-manager.js"></script>
-    {% seo%}
   </head>
   <body>
     <header>
@@ -68,9 +61,9 @@
         </div>
         <div id="HeaderMenuContainer" class="header-menu-container">
           <div class="header-options">
-            <a href="index.html" class="option-init">Início</a>
-            <a href="#" class="select">Comandos</a>
-            <!-- <a href="tutorial.html">Tutoriais</a> -->
+            <a href="#" class="select option-init">Início</a>
+            <a href="commands.html">Comandos</a>
+            <a href="tutorial.html">Tutoriais</a>
             <a href="#">Doar</a>
           </div>
           <div class="header-state">
@@ -84,43 +77,19 @@
     <div class="content-body">
       <div class="container">
         <div class="body">
-          <div class="commands-container">
-            <div class="commands-header">
-              <button
-                id="BtnUsers"
-                onclick="SwitchCommands('users')"
-                class="commands-header-options user userBorder"
-              >
-                Usuários
-              </button>
-              <button
-                id="BtnGames"
-                onclick="SwitchCommands('games')"
-                class="commands-header-options games"
-              >
-                Jogos
-              </button>
-              <button
-                id="BtnStaff"
-                onclick="SwitchCommands('staff')"
-                class="commands-header-options staff"
-              >
-                Ajudantes
-              </button>
-              <button
-                id="BtnAdmins"
-                onclick="SwitchCommands('admins')"
-                class="commands-header-options admins"
-              >
-                Administração
-              </button>
-            </div>
-            <div class="commands-body">
-              <div id="CommandsLoader" class="commands-loader">
-                <img src="./assets/img/Spinner.svg" alt="" />
-              </div>
-              <div id="ContainerBodyCommands"></div>
-            </div>
+          <h1>Precisa de ajuda?</h1>
+          <p>
+            Produzimos alguns videos tutorias para ajudar a usar o GeneralBot!
+          </p>
+          <div>
+            <iframe
+              id="ytplayer"
+              type="text/html"
+              width="640"
+              height="360"
+              src="http://www.youtube.com/embed?listType=user_uploads&list=Gamekiks"
+              frameborder="0"
+            />
           </div>
         </div>
       </div>
@@ -139,7 +108,7 @@
                 Gostou? Para nos incentivar e fazer com que o projeto continue
                 faça uma doação
               </p>
-              <a href="#"
+              <a href="commands.html"
                 ><i class="fab fa-cc-paypal"></i>
                 <span>Fazer uma doação</span></a
               >
@@ -164,8 +133,5 @@
         </div>
       </footer>
     </div>
-    <script>
-      SwitchCommands("users");
-    </script>
   </body>
 </html>

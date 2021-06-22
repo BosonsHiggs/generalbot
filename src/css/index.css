@@ -155,7 +155,7 @@ header .container .header-menu-container .header-state h6 {
   color: #f04747;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   header {
     min-height: 60px;
     height: auto;
@@ -180,9 +180,9 @@ header .container .header-menu-container .header-state h6 {
   header .container .header-menu-container .header-options .option-init {
     margin-left: 0px;
   }
-}
+} */
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 995px) {
   header {
     min-height: 60px;
     height: auto;
