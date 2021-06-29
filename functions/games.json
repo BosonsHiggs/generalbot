@@ -1,6 +1,217 @@
 [
   {
     "permission": "Any user can use these commands",
-    "commands": []
+    "commands": [
+      {
+        "commands": [
+          "?top"
+        ],
+        "descriptions": "Displays the 5 highest scores in ednaldos."
+      },
+      {
+        "commands": [
+          "?pedir"
+        ],
+        "descriptions": "Receive your initial edinaldo (in-game coins)."
+      },
+      {
+        "commands": [
+          "?minerar"
+        ],
+        "descriptions": "Coin mining - earn more coins by mining!"
+      },
+      {
+        "commands": [
+          "?mine"
+        ],
+        "descriptions": "Coin mining - earn more coins by mining!"
+      },
+      {
+        "commands": [
+          "?emp"
+        ],
+        "descriptions": "Borrows coins from Boson Higgs bank."
+      },
+      {
+        "commands": [
+          "?loan"
+        ],
+        "descriptions": "Borrows coins from Boson Higgs bank."
+      },
+      {
+        "commands": [
+          "?poup"
+        ],
+        "descriptions": "Lend your money to the bank and you get coins back."
+      },
+      {
+        "commands": [
+          "?sav"
+        ],
+        "descriptions": "Lend your money to the bank and you get coins back."
+      },
+      {
+        "commands": [
+          "?doar"
+        ],
+        "descriptions": "Donate coins to a user."
+      },
+      {
+        "commands": [
+          "?donate"
+        ],
+        "descriptions": "Donate coins to a user."
+      },
+      {
+        "commands": [
+          "?perdao"
+        ],
+        "descriptions": "Forgiveness of negative debts."
+      },
+      {
+        "commands": [
+          "?forgiveness"
+        ],
+        "descriptions": "Forgiveness of negative debts."
+      },
+      {
+        "commands": [
+          "?investir "
+        ],
+        "descriptions": "Investing money in stocks."
+      },
+      {
+        "commands": [
+          "?inv"
+        ],
+        "descriptions": "Investing money in stocks."
+      },
+      {
+        "commands": [
+          "?cargos"
+        ],
+        "descriptions": "Buy roles with your balance of ednaldos."
+      },
+      {
+        "commands": [
+          "?buyroles"
+        ],
+        "descriptions": "Buy roles with your balance of ednaldos."
+      },
+      {
+        "commands": [
+          "?loteria"
+        ],
+        "descriptions": "Place a lottery bet and compete for thousands of ednaldos."
+      },
+      {
+        "commands": [
+          "?loto"
+        ],
+        "descriptions": "Place a lottery bet and compete for thousands of ednaldos."
+      },
+      {
+        "commands": [
+          "?quiz"
+        ],
+        "descriptions": "Earn ednaldo coins by solving the quiz questions created by local admins."
+      },
+      {
+        "commands": [
+          "?caracoroa"
+        ],
+        "descriptions": "You can multiply your total ednaldos by 10 winning the heads or tails!"
+      },
+      {
+        "commands": [
+          "?cca"
+        ],
+        "descriptions": "You can multiply your total ednaldos by 10 winning the heads or tails!"
+      },
+      {
+        "commands": [
+          "?pescar"
+        ],
+        "descriptions": "Relax fishing and earn ednaldos coins."
+      },
+      {
+        "commands": [
+          "?fish"
+        ],
+        "descriptions": "Relax fishing and earn ednaldos coins."
+      },
+      {
+        "commands": [
+          "?hackear @user"
+        ],
+        "descriptions": "Use this command to hack someone ednaldos coins!"
+      },
+      {
+        "commands": [
+          "?hack @user"
+        ],
+        "descriptions": "Use this command to hack someone ednaldos coins!"
+      },
+      {
+        "commands": [
+          "?duelar @user moedas"
+        ],
+        "descriptions": "Play heads or tails with your friend and win/lose some coins."
+      },
+      {
+        "commands": [
+          "?duel @user coins"
+        ],
+        "descriptions": "Play heads or tails with your friend and win/lose some coins."
+      },
+      {
+        "commands": [
+          "?tranferir ID-server valor"
+        ],
+        "descriptions": "Transfer your coins (-10%) from another server to the server where the command was executed"
+      },
+      {
+        "commands": [
+          "?tf ID-server valor"
+        ],
+        "descriptions": "Transfer your coins (-10%) from another server to the server where the command was executed"
+      },
+      {
+        "commands": [
+          "?patrimonio"
+        ],
+        "descriptions": "Shows the ID's and currencies accumulated on the servers you are on."
+      },
+      {
+        "commands": [
+          "?patrimony"
+        ],
+        "descriptions": "Shows the ID's and currencies accumulated on the servers you are on."
+      },
+      {
+        "commands": [
+          "?rank"
+        ],
+        "descriptions": "See the top 5 scores from all servers"
+      },
+      {
+        "commands": [
+          "?global"
+        ],
+        "descriptions": "See the top 5 scores from all servers"
+      },
+      {
+        "commands": [
+          "?loja"
+        ],
+        "descriptions": "Buy or collect items!"
+      },
+      {
+        "commands": [
+          "?store"
+        ],
+        "descriptions": "Buy or collect items!"
+      }
+    ]
   }
 ]

@@ -1,6 +1,217 @@
 [
   {
     "permission": "Staffers must have permission to \"channel manager\"",
-    "commands": []
+    "commands": [
+      {
+        "commands": [
+          "?clear number "
+        ],
+        "descriptions": "Delete a certain number of messages"
+      },
+      {
+        "commands": [
+          "?clear_all "
+        ],
+        "descriptions": "Delete all messages from a channel"
+      },
+      {
+        "commands": [
+          "?invites"
+        ],
+        "descriptions": "Lists user invites"
+      },
+      {
+        "commands": [
+          "?iv"
+        ],
+        "descriptions": "Lists user invites"
+      },
+      {
+        "commands": [
+          "?lock #channel-name @role"
+        ],
+        "descriptions": "Locks a channel, except for \"@role\" If \"#channel-name\" is not informed, the current channel will be blocked You can also use only ?lock to lock for everyone"
+      },
+      {
+        "commands": [
+          "?unlock #channel-name @role"
+        ],
+        "descriptions": "Unlocks a channel, except for \"@role\" If \"#channel-name\" is not informed, the current channel will be blocked You can also use only ?unlock to unlock for everyone"
+      },
+      {
+        "commands": [
+          "?defstaff #channel-name "
+        ],
+        "descriptions": "Defines a channel for users to request help from the staff"
+      },
+      {
+        "commands": [
+          "?dfc #channel-name"
+        ],
+        "descriptions": "Defines a channel for users to request help from the staff"
+      },
+      {
+        "commands": [
+          "?udefstaff #channel-name"
+        ],
+        "descriptions": "Removes the staff help channel"
+      },
+      {
+        "commands": [
+          "?udfc #channel-name"
+        ],
+        "descriptions": "Removes the staff help channel"
+      },
+      {
+        "commands": [
+          "?defin #channel-name "
+        ],
+        "descriptions": "Set the user input channel"
+      },
+      {
+        "commands": [
+          "?dfi #channel-name"
+        ],
+        "descriptions": "Set the user input channel"
+      },
+      {
+        "commands": [
+          "?udefin #channel-name"
+        ],
+        "descriptions": "Defines the channel as not being user input"
+      },
+      {
+        "commands": [
+          "?udi #channel-name"
+        ],
+        "descriptions": "Defines the channel as not being user input"
+      },
+      {
+        "commands": [
+          "?defout #channel-name"
+        ],
+        "descriptions": "Sets the user output channel"
+      },
+      {
+        "commands": [
+          "?dfo #channel-name"
+        ],
+        "descriptions": "Sets the user output channel"
+      },
+      {
+        "commands": [
+          "?udefout #channel-name"
+        ],
+        "descriptions": "Defines the channel as not being an user output"
+      },
+      {
+        "commands": [
+          "?udo #channel-name"
+        ],
+        "descriptions": "Defines the channel as not being an user output"
+      },
+      {
+        "commands": [
+          "?defban #channel-name"
+        ],
+        "descriptions": "Sets a channel to display banned users"
+      },
+      {
+        "commands": [
+          "?udefban #channel-name"
+        ],
+        "descriptions": "Defines the channel as not being banned users"
+      },
+      {
+        "commands": [
+          "?channelvname #channel-name \"new-name\""
+        ],
+        "descriptions": "Renames a voice channel to \"{'Sets the user output channel'}\""
+      },
+      {
+        "commands": [
+          "?chvn #channel-name \"new-name\""
+        ],
+        "descriptions": "Renames a voice channel to \"{'Sets the user output channel'}\""
+      },
+      {
+        "commands": [
+          "?channeltname #channel-name \"new-name\" "
+        ],
+        "descriptions": "Renames a text channel to \"{'Sets the user output channel'}\""
+      },
+      {
+        "commands": [
+          "?chtn #channel-name \"new-name\""
+        ],
+        "descriptions": "Renames a text channel to \"{'Sets the user output channel'}\""
+      },
+      {
+        "commands": [
+          "?statuschannel"
+        ],
+        "descriptions": "Creates status channels, which show the number of users and bots on the server"
+      },
+      {
+        "commands": [
+          "?sch"
+        ],
+        "descriptions": "Creates status channels, which show the number of users and bots on the server"
+      },
+      {
+        "commands": [
+          "?udefstatus"
+        ],
+        "descriptions": "Removes status channels"
+      },
+      {
+        "commands": [
+          "?uds"
+        ],
+        "descriptions": "Removes status channels"
+      },
+      {
+        "commands": [
+          "?sorterole @cargo"
+        ],
+        "descriptions": "Randomly selects a user who has a specific role"
+      },
+      {
+        "commands": [
+          "?sr *@cargo*"
+        ],
+        "descriptions": "Randomly selects a user who has a specific role"
+      },
+      {
+        "commands": [
+          "?addquiz question right_answer option1 option2"
+        ],
+        "descriptions": "Adds questions to the game quiz."
+      },
+      {
+        "commands": [
+          "?delquiz "
+        ],
+        "descriptions": "Delete a question or the entire quiz. Use the commands mentioned to see the examples!"
+      },
+      {
+        "commands": [
+          "?dqz"
+        ],
+        "descriptions": "Delete a question or the entire quiz. Use the commands mentioned to see the examples!"
+      },
+      {
+        "commands": [
+          "?copyquiz ID-server"
+        ],
+        "descriptions": "Copy an existing quiz from the server using your ID"
+      },
+      {
+        "commands": [
+          "?cpq ID-server"
+        ],
+        "descriptions": "Copy an existing quiz from the server using your ID"
+      }
+    ]
   }
 ]

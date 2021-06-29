@@ -1,7 +1,7 @@
 {
   "INDEX": {
     "Any user can use these commands": "Qualquer usuário pode usar esses comandos.",
-    "Staffers must have permission to \"channel manager\"": "Os funcionários devem ter permissão para \"gerente de canal\"",
+    "Staffers must have permission to \"channel manager\"": "Os funcionários devem ter permissão para \"Gerente de Canal\"",
     "Users must have permission from \"Administrator\"": "Os usuários devem ter permissão de \"Administrador\""
   },
   "COMMANDS": {
@@ -21,8 +21,76 @@
       "Help the bot's creators.": "Ajude os criadores do bot.",
       "Creates an invitation link to another bot.": "Cria um link de convite para outro bot."
     },
-    "GAMES": {},
-    "STAFF": {},
-    "ADMINS": {}
+    "GAMES": {
+      "Displays the 5 highest scores in ednaldos.": "",
+      "Receive your initial edinaldo (in-game coins).": "",
+      "Coin mining - earn more coins by mining!": "",
+      "Borrows coins from Boson Higgs bank.": "",
+      "Lend your money to the bank and you get coins back.": "",
+      "Donate coins to a user.": "",
+      "Forgiveness of negative debts.": "",
+      "Investing money in stocks.": "",
+      "Buy roles with your balance of ednaldos.": "",
+      "Place a lottery bet and compete for thousands of ednaldos.": "",
+      "Earn ednaldo coins by solving the quiz questions created by local admins.": "",
+      "You can multiply your total ednaldos by 10 winning the heads or tails!": "",
+      "Relax fishing and earn ednaldos coins.": "",
+      "Use this command to hack someone ednaldos coins!": "",
+      "Play heads or tails with your friend and win/lose some coins.": "",
+      "Transfer your coins (-10%) from another server to the server where the command was executed.": "",
+      "Shows the ID's and currencies accumulated on the servers you are on.": "",
+      "See the top 5 scores from all servers": "",
+      "Buy or collect items!": ""
+    },
+    "STAFF": {
+      " Delete a certain number of messages": "",
+      "Delete all messages from a channel": "",
+      "Lists user invites": "",
+      "Locks a channel, except for \"@role\" If \"#channel-name\" is not informed, the current channel will be blocked You can also use only ?lock to lock for everyone.": "",
+      "Unlocks a channel, except for \"@role\" If \"#channel-name\" is not informed, the current channel will be blocked You can also use only ?unlock to unlock for everyone.": "",
+      "Defines a channel for users to request help from the staff": "",
+      "Removes the staff help channel": "",
+      "Set the user input channel": "",
+      "Defines the channel as not being user input": "",
+      "Sets the user output channel": "",
+      "Defines the channel as not being an user output": "",
+      "Sets a channel to display banned users": "",
+      "Defines the channel as not being banned users": "",
+      "Renames a voice channel to \"{'Sets the user output channel'}\"": "",
+      "Renames a text channel to \"{'Sets the user output channel'}\"": "",
+      "Creates status channels, which show the number of users and bots on the server": "",
+      "Removes status channels": "",
+      "Randomly selects a user who has a specific role": "",
+      "Adds questions to the game quiz": "",
+      "Delete a question or the entire quiz": "",
+      "Copy an existing quiz from the server using your ID": ""
+    },
+    "ADMINS": {
+      "Displays the number of users and bots on the server": "",
+      "Ban a user": "",
+      "Unban a user": "",
+      "Kick a user": "",
+      "Mute a user, that is, the user will not be able to send messages on the server": "",
+      "Unmute a user": "",
+      "Creates a normal text channel": "",
+      "Creates a normal voice channel": "",
+      "Creates a secret text channel": "",
+      "Creates a secret voice channel": "",
+      "Deletes a category and all existing channels in the same": "",
+      "Removes an @{'role'} role from the user @user": "",
+      "Changes the prefix of the bot (ex. ?setprefix p!)": "",
+      "Adds a temporary role to the user until the date DD\/MM\/YYYY": "",
+      "Adds an @{'newrole'} role to users who have an @{'oldrole'} role": "",
+      "Adds an @{'role'} role to the @user user": "",
+      "Defines a channel as a record by reaction. You must create a channel just for that and a role with the name \"Membro\" or \"Member\"": "",
+      "Removes the bot as an authentication method on the welcome channel": "",
+      "Reaction roles. You can enter up to 10 roles at a time": "",
+      "Offers a position for a period of time in seconds. (e.g. ;rt 60 @role emoji)": "",
+      "Defines a channel as chatguild. With this channel, owners and admins will be able to communicate with other owners and admins": "",
+      "Defines a channel as not being a chatguild": "",
+      "Displays the possible chatguild servers": "",
+      "Sends a message to the server informed by the ID": "",
+      "See the number of views, genres and tags used by youtubers": ""
+    }
   }
 }

@@ -1,9 +1,27 @@
+/* GeneralBot JS by JvNeto */
+/* Date: 20/06/2021 */
+
+const pathParams = new URLSearchParams(window.location.search);
+const paramLang = pathParams.get("lang");
+var paramForceLang = pathParams.get("force");
+if (paramForceLang == "" || paramForceLang == null) paramForceLang = "false";
+
 var pathOrigin = window.location.origin;
 const deployState = true;
 
 if (pathOrigin == "http://localhost" || deployState == false)
-  pathOrigin = `${pathOrigin}/Projects/generalbot/functions`;
-else pathOrigin = `${pathOrigin}/generalbot/functions`;
+  pathOrigin = `${pathOrigin}/Projects/generalbot`;
+else pathOrigin = `${pathOrigin}/generalbot`;
+
+const LangValidate = (lang) => {
+  const langSystem = navigator.language;
+  var replaceLang = langSystem.replace("-", "_");
+  var langAvailable = ["pt_BR"];
+  if (langAvailable.indexOf(lang) != -1) return lang;
+  if (langAvailable.indexOf(replaceLang) != -1 && paramForceLang == "false")
+    return replaceLang;
+  else return "en";
+};
 
 const ManagerLoader = (state) => {
   document.getElementById("ContainerBodyCommands").innerHTML = "";
@@ -37,34 +55,54 @@ const ButtonState = (state) => {
   }
 };
 
+const ViewCreate = (commands, modelCommand, jsonLang) => {
+  console.log(commands);
+  $.getJSON(`${pathOrigin}/functions/${commands}.json`, (json) => {
+    json.map((data) => {
+      var response = "";
+      const permission =
+        jsonLang && jsonLang["INDEX"][data.permission]
+          ? jsonLang["INDEX"][data.permission]
+          : data.permission;
+      response += `<h5>Permissão:</h5><h6>${permission}</h6>`;
+      data.commands.map((data) => {
+        const commandsLength = data.commands.length;
+        var init = 1;
+        data.commands.map((data) => {
+          if (init == 1) {
+            response += `<div class="commands"><div id="CommandsLineAdd" class="commands-line">`;
+          }
+          response += `<code>${data}</code>`;
+          if (commandsLength > 1 && init <= commandsLength - 1) {
+            response += `<span>ou</span>`;
+          }
+          init++;
+        });
+
+        const description =
+          jsonLang && jsonLang["COMMANDS"][modelCommand][data.descriptions]
+            ? jsonLang["COMMANDS"][modelCommand][data.descriptions]
+            : data.descriptions;
+        response += `</div><h6>${description}</h6></div><hr style="background-color: #7289da; display: none"/>`;
+      });
+      ManagerLoader(false);
+      document.getElementById("ContainerBodyCommands").innerHTML = response;
+    });
+  });
+};
+
 const SwitchCommands = (commands) => {
+  const lang = LangValidate(paramLang);
   ManagerLoader(true);
   ButtonState(commands);
   const command = ["users", "games", "staff", "admins"];
+  const modelCommand = commands.toUpperCase();
   if (command.indexOf(commands) > -1) {
-    $.getJSON(`${pathOrigin}/${commands}.json`, (json) => {
-      json.map((data) => {
-        var response = "";
-        response += `<h5>Permissão:</h5><h6>${data.permission}</h6>`;
-        data.commands.map((data) => {
-          const commandsLength = data.commands.length;
-          var init = 1;
-          data.commands.map((data) => {
-            if (init == 1) {
-              response += `<div class="commands"><div id="CommandsLineAdd" class="commands-line">`;
-            }
-            response += `<code>${data}</code>`;
-            if (commandsLength > 1 && init <= commandsLength - 1) {
-              response += `<span>ou</span>`;
-            }
-            init++;
-          });
-          response += `</div><h6>${data.descriptions}</h6></div>`;
-        });
-        ManagerLoader(false);
-        document.getElementById("ContainerBodyCommands").innerHTML = response;
+    if (lang == "pt_BR")
+      $.getJSON(`${pathOrigin}/lang/${lang}.json`, function (jsonLang) {
+        ViewCreate(commands, modelCommand, jsonLang);
       });
-    });
+    else ViewCreate(commands, modelCommand, "");
   } else {
     ManagerLoader(false);
     document.getElementById(
