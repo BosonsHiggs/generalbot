@@ -1,5 +1,5 @@
 <!-- GeneralBot Index HTML by JvNeto -->
-<!-- Date: 19/06/2021 -->
+<!-- Date: 29/06/2021 -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -66,10 +66,10 @@
             <!-- <a href="tutorial.html">Tutoriais</a> -->
             <a href="#">Doar</a>
           </div>
-          <div class="header-state">
+          <div class="header-state" id="StatesContainer" style="display: none;">
             <i class="fas fa-robot"></i>
             <h5>Status:</h5>
-            <h6 class="online">ONLINE</h6>
+            <h6 id="StateText" class="online">ONLINE</h6>
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@
               <i class="fab fa-discord"></i>
               <h6>Adicionar GeneralBot ao seu servidor</h6>
             </a>
-            <a href="#" class="button-resurces">
+            <a href="./commands.html" class="button-resurces">
               <h6>Ver Recursos</h6>
             </a>
           </div>
@@ -137,5 +137,7 @@
         </div>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./src/js/bot-state-manager.js"></script>
   </body>
 </html>
