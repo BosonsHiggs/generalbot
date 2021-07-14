@@ -10,7 +10,7 @@ var pathOrigin = window.location.origin;
 const deployState = true;
 
 if (pathOrigin == "http://localhost" || deployState == false)
-  pathOrigin = `${pathOrigin}/Projects/generalbot`;
+  pathOrigin = `${pathOrigin}/generalbot`;
 else pathOrigin = `${pathOrigin}/generalbot`;
 
 const LangValidate = (lang) => {
@@ -56,7 +56,6 @@ const ButtonState = (state) => {
 };
 
 const ViewCreate = (commands, modelCommand, jsonLang) => {
-  console.log(commands);
   $.getJSON(`${pathOrigin}/functions/${commands}.json`, (json) => {
     json.map((data) => {
       var response = "";
