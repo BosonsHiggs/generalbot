@@ -2,7 +2,8 @@
     "INDEX": {
         "Any user can use these commands": "Qualquer usuário pode usar esses comandos.",
         "Staffers must have permission to \"channel manager\"": "Os funcionários devem ter permissão para \"Gerente de Canal\"",
-        "Users must have permission from \"Administrator\"": "Os usuários devem ter permissão de \"Administrador\""
+        "Users must have permission from \"Administrator\"": "Os usuários devem ter permissão de \"Administrador\"",
+        "description edit": "Descrição editar"
     },
     "COMMANDS": {
         "USERS": {
@@ -19,8 +20,7 @@
             "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple).": "Desenhe uma palavra entre outras. Não se esqueça de separar com uma vírgula! (ex. tipo uva, pêra, maçã).",
             "Send a message to the staff channel.": "Envie uma mensagem para o canal da equipe.",
             "Help the bot's creators.": "Ajude os criadores do bot.",
-            "Creates an invitation link to another bot.": "Cria um link de convite para outro bot.",
-            "Create a test.": "Criar teste."
+            "Creates an invitation link to another bot.": "Cria um link de convite para outro bot."
         },
         "GAMES": {
             "Displays the 5 highest scores in ednaldos.": "Mostra as 5 maiores pontuações em ednaldo",
@@ -92,6 +92,7 @@
             "Displays the possible chatguild servers": "Mostra a lista de possíveis servidores chatguild",
             "Sends a message to the server informed by the ID": "Envia a mesagem para o servidor no ID informado",
             "See the number of views, genres and tags used by youtubers": "Mostra o número de visualizações, gêneros e tags usadas por youtubers"
-        }
+        },
+        "SECURITY": {}
     }
 }

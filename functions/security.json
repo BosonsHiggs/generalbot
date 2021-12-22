@@ -1,0 +1,9 @@
+[{
+    "permission": "description edit",
+    "commands": [{
+        "commands": [
+            "?clear number "
+        ],
+        "descriptions": "Delete a certain number of messages"
+    }]
+}]
