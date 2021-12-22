@@ -1,205 +1,208 @@
-[
-  {
+[{
     "permission": "Any user can use these commands",
-    "commands": [
-      {
-        "commands": [
-          "?help"
-        ],
-        "descriptions": "Return a list of available commands."
-      },
-      {
-        "commands": [
-          "?ajuda"
-        ],
-        "descriptions": "Return a list of available commands."
-      },
-      {
-        "commands": [
-          "?hp"
-        ],
-        "descriptions": "Return a list of available commands."
-      },
-      {
-        "commands": [
-          "?eu"
-        ],
-        "descriptions": "Return your user information."
-      },
-      {
-        "commands": [
-          "?sobre @*user*"
-        ],
-        "descriptions": "Return information from other users."
-      },
-      {
-        "commands": [
-          "?myinvite"
-        ],
-        "descriptions": "Creates a link to the channel by the informed ID If ID is empty, creates a link to the current channel."
-      },
-      {
-        "commands": [
-          "?miv #channel-name"
-        ],
-        "descriptions": "Creates a link to the channel by the informed ID If ID is empty, creates a link to the current channel."
-      },
-      {
-        "commands": [
-          "?ping"
-        ],
-        "descriptions": "Returns the average bot response time."
-      },
-      {
-        "commands": [
-          "?mat"
-        ],
-        "descriptions": "Returns the result of a mathematical operation."
-      },
-      {
-        "commands": [
-          "?math"
-        ],
-        "descriptions": "Returns the result of a mathematical operation."
-      },
-      {
-        "commands": [
-          "?m mathematical-operation"
-        ],
-        "descriptions": "Returns the result of a mathematical operation."
-      },
-      {
-        "commands": [
-          "?arcade"
-        ],
-        "descriptions": "Checks if there is any beta game."
-      },
-      {
-        "commands": [
-          "?dicio"
-        ],
-        "descriptions": "Search for the definition or classification of a word in Portuguese [br] or English [us]."
-      },
-      {
-        "commands": [
-          "?dic"
-        ],
-        "descriptions": "Search for the definition or classification of a word in Portuguese [br] or English [us]."
-      },
-      {
-        "commands": [
-          "?dc \"word\""
-        ],
-        "descriptions": "Search for the definition or classification of a word in Portuguese [br] or English [us]."
-      },
-      {
-        "commands": [
-          "?translate"
-        ],
-        "descriptions": "Translate a word into Portuguese[br]."
-      },
-      {
-        "commands": [
-          "?traduzir"
-        ],
-        "descriptions": "Translate a word into Portuguese[br]."
-      },
-      {
-        "commands": [
-          "?trans language text"
-        ],
-        "descriptions": "Translate a word into Portuguese[br]."
-      },
-      {
-        "commands": [
-          "?sortnum None interval"
-        ],
-        "descriptions": "Draws a number between a range (eg. sortnum 1-10)."
-      },
-      {
-        "commands": [
-          "?sortenum None"
-        ],
-        "descriptions": "Draws a number between a range (eg. sortnum 1-10)."
-      },
-      {
-        "commands": [
-          "?sort None"
-        ],
-        "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-      },
-      {
-        "commands": [
-          "?sorte None"
-        ],
-        "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-      },
-      {
-        "commands": [
-          "?sortear None"
-        ],
-        "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-      },
-      {
-        "commands": [
-          "?sorteio None"
-        ],
-        "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-      },
-      {
-        "commands": [
-          "?escolher None"
-        ],
-        "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-      },
-      {
-        "commands": [
-          "?choose None"
-        ],
-        "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-      },
-      {
-        "commands": [
-          "?pick None"
-        ],
-        "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-      },
-      {
-        "commands": [
-          "?staffajuda \"text\""
-        ],
-        "descriptions": "Send a message to the staff channel."
-      },
-      {
-        "commands": [
-          "?sta \"text\""
-        ],
-        "descriptions": "Send a message to the staff channel."
-      },
-      {
-        "commands": [
-          "?meajude"
-        ],
-        "descriptions": "Help the bot's creators."
-      },
-      {
-        "commands": [
-          "?ma"
-        ],
-        "descriptions": "Help the bot's creators."
-      },
-      {
-        "commands": [
-          "?botinvite @bot-name"
-        ],
-        "descriptions": "Creates an invitation link to another bot."
-      },
-      {
-        "commands": [
-          "?bi @bot-name"
-        ],
-        "descriptions": "Creates an invitation link to another bot."
-      }
+    "commands": [{
+            "commands": [
+                "?help"
+            ],
+            "descriptions": "Return a list of available commands."
+        },
+        {
+            "commands": [
+                "?ajuda"
+            ],
+            "descriptions": "Return a list of available commands."
+        },
+        {
+            "commands": [
+                "?hp"
+            ],
+            "descriptions": "Return a list of available commands."
+        },
+        {
+            "commands": [
+                "?eu"
+            ],
+            "descriptions": "Return your user information."
+        },
+        {
+            "commands": [
+                "?sobre @*user*"
+            ],
+            "descriptions": "Return information from other users."
+        },
+        {
+            "commands": [
+                "?myinvite"
+            ],
+            "descriptions": "Creates a link to the channel by the informed ID If ID is empty, creates a link to the current channel."
+        },
+        {
+            "commands": [
+                "?miv #channel-name"
+            ],
+            "descriptions": "Creates a link to the channel by the informed ID If ID is empty, creates a link to the current channel."
+        },
+        {
+            "commands": [
+                "?ping"
+            ],
+            "descriptions": "Returns the average bot response time."
+        },
+        {
+            "commands": [
+                "?mat"
+            ],
+            "descriptions": "Returns the result of a mathematical operation."
+        },
+        {
+            "commands": [
+                "?math"
+            ],
+            "descriptions": "Returns the result of a mathematical operation."
+        },
+        {
+            "commands": [
+                "?m mathematical-operation"
+            ],
+            "descriptions": "Returns the result of a mathematical operation."
+        },
+        {
+            "commands": [
+                "?arcade"
+            ],
+            "descriptions": "Checks if there is any beta game."
+        },
+        {
+            "commands": [
+                "?dicio"
+            ],
+            "descriptions": "Search for the definition or classification of a word in Portuguese [br] or English [us]."
+        },
+        {
+            "commands": [
+                "?dic"
+            ],
+            "descriptions": "Search for the definition or classification of a word in Portuguese [br] or English [us]."
+        },
+        {
+            "commands": [
+                "?dc \"word\""
+            ],
+            "descriptions": "Search for the definition or classification of a word in Portuguese [br] or English [us]."
+        },
+        {
+            "commands": [
+                "?translate"
+            ],
+            "descriptions": "Translate a word into Portuguese[br]."
+        },
+        {
+            "commands": [
+                "?traduzir"
+            ],
+            "descriptions": "Translate a word into Portuguese[br]."
+        },
+        {
+            "commands": [
+                "?trans language text"
+            ],
+            "descriptions": "Translate a word into Portuguese[br]."
+        },
+        {
+            "commands": [
+                "?sortnum None interval"
+            ],
+            "descriptions": "Draws a number between a range (eg. sortnum 1-10)."
+        },
+        {
+            "commands": [
+                "?sortenum None"
+            ],
+            "descriptions": "Draws a number between a range (eg. sortnum 1-10)."
+        },
+        {
+            "commands": [
+                "?sort None"
+            ],
+            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
+        },
+        {
+            "commands": [
+                "?sorte None"
+            ],
+            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
+        },
+        {
+            "commands": [
+                "?sortear None"
+            ],
+            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
+        },
+        {
+            "commands": [
+                "?sorteio None"
+            ],
+            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
+        },
+        {
+            "commands": [
+                "?escolher None"
+            ],
+            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
+        },
+        {
+            "commands": [
+                "?choose None"
+            ],
+            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
+        },
+        {
+            "commands": [
+                "?pick None"
+            ],
+            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
+        },
+        {
+            "commands": [
+                "?staffajuda \"text\""
+            ],
+            "descriptions": "Send a message to the staff channel."
+        },
+        {
+            "commands": [
+                "?sta \"text\""
+            ],
+            "descriptions": "Send a message to the staff channel."
+        },
+        {
+            "commands": [
+                "?meajude"
+            ],
+            "descriptions": "Help the bot's creators."
+        },
+        {
+            "commands": [
+                "?ma"
+            ],
+            "descriptions": "Help the bot's creators."
+        },
+        {
+            "commands": [
+                "?botinvite @bot-name"
+            ],
+            "descriptions": "Creates an invitation link to another bot."
+        },
+        {
+            "commands": [
+                "?bi @bot-name"
+            ],
+            "descriptions": "Creates an invitation link to another bot."
+        },
+        {
+            "commands": [
+                "?Teste"
+            ],
+            "descriptions": "Create a test."
+        }
     ]
-  }
-]
+}]
