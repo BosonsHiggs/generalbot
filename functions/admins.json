@@ -4,201 +4,105 @@
     "commands": [
       {
         "commands": [
-          "?allmembers "
+          "/serverinfo"
         ],
         "descriptions": "Displays the number of users and bots on the server"
       },
       {
         "commands": [
-          "?am"
-        ],
-        "descriptions": "Displays the number of users and bots on the server"
-      },
-      {
-        "commands": [
-          "?ban @user"
+          "/ban"
         ],
         "descriptions": "Ban a user"
       },
       {
         "commands": [
-          "?ban @user \"reason\""
-        ],
-        "descriptions": "Ban a user"
-      },
-      {
-        "commands": [
-          "?unban ID-user"
+          "/unban"
         ],
         "descriptions": "Unban a user"
       },
       {
         "commands": [
-          "?kick @user "
+          "/kick"
         ],
         "descriptions": " Kick a user"
       },
       {
         "commands": [
-          "?kick @user \"reason\""
-        ],
-        "descriptions": "Kick a user"
-      },
-      {
-        "commands": [
-          "?mute @user"
+          "/mute"
         ],
         "descriptions": "Mute a user, that is, the user will not be able to send messages on the server"
       },
       {
         "commands": [
-          "?mt @user \"reason\""
-        ],
-        "descriptions": "Mute a user, that is, the user will not be able to send messages on the server"
-      },
-      {
-        "commands": [
-          "?unmute @user"
+          "/unmute"
         ],
         "descriptions": "Unmute a user"
       },
       {
         "commands": [
-          "?umt @user \"reason\""
-        ],
-        "descriptions": "Unmute a user"
-      },
-      {
-        "commands": [
-          "?mkch \"category\" channel-name"
+          "/make textchannel"
         ],
         "descriptions": "Creates a normal text channel."
       },
       {
         "commands": [
-          "?mkchv \"category\" channel-name"
+          "/make voicechannel"
         ],
         "descriptions": "Creates a normal voice channel."
       },
       {
         "commands": [
-          "?mkpch \"category\" channel-name"
+          "/make ptextchannel"
         ],
         "descriptions": "Creates a secret text channel."
       },
       {
         "commands": [
-          "?mkpch \"category\" channel-name"
+          "/make pvoicechannel"
         ],
         "descriptions": "Creates a secret voice channel."
       },
       {
         "commands": [
-          "?delch \"categ"
+          "/make category"
+        ],
+        "descriptions": "Creates a category on the server"
+      },
+      {
+        "commands": [
+          "/remove categorychannels"
         ],
         "descriptions": "Deletes a category and all existing channels in the same"
       },
       {
         "commands": [
-          "?remove_roles @user @role"
+          "/remove urole"
         ],
-        "descriptions": "Removes an @{'role'} role from the user @user"
+        "descriptions": "Removes an role from the user user"
       },
       {
         "commands": [
-          "?rmr @user @role"
+          "/membersrole"
         ],
-        "descriptions": "Removes an @{'role'} role from the user @user"
+        "descriptions": "Remove a role from all members"
       },
       {
         "commands": [
-          "?removefromrole @role"
+          "/add roleall"
         ],
-        "descriptions": "Removes an @{'role'} role from the user @user"
+        "descriptions": "Add a role to all members"
       },
       {
         "commands": [
-          "?rfr @role"
+          "/add role"
         ],
-        "descriptions": "Removes an @{'role'} role from the user @user"
+        "descriptions": "Add a role to a specific member"
       },
       {
         "commands": [
-          "?setprefix prefix"
+          "/add reactionrole"
         ],
-        "descriptions": "Changes the prefix of the bot (ex"
-      },
-      {
-        "commands": [
-          "?remind DD\/MM\/YYYY @user @role"
-        ],
-        "descriptions": "Adds a temporary role to the user until the date DD\/MM\/YYYY"
-      },
-      {
-        "commands": [
-          "?rd DD\/MM\/YYYY @user @role"
-        ],
-        "descriptions": "Adds a temporary role to the user until the date DD\/MM\/YYYY"
-      },
-      {
-        "commands": [
-          "?addroles @oldrole @newrole"
-        ],
-        "descriptions": "Adds an @{'newrole'} role to users who have an @{'oldrole'} role"
-      },
-      {
-        "commands": [
-          "?adr @oldrole @newrole"
-        ],
-        "descriptions": " Adds an @{'newrole'} role to users who have an @{'oldrole'} role"
-      },
-      {
-        "commands": [
-          "?adduser_roles @user @role"
-        ],
-        "descriptions": "Adds an @{'role'} role to the @user user"
-      },
-      {
-        "commands": [
-          "?adur @user @role"
-        ],
-        "descriptions": "Adds an @{'role'} role to the @user user"
-      },
-      {
-        "commands": [
-          "?wellcome channel-name"
-        ],
-        "descriptions": "Defines a channel as a record by reaction. You must create a channel just for that and a role with the name \"Membro\" or \"Member\"."
-      },
-      {
-        "commands": [
-          "?wcm channel-name"
-        ],
-        "descriptions": "Defines a channel as a record by reaction. You must create a channel just for that and a role with the name \"Membro\" or \"Member\"."
-      },
-      {
-        "commands": [
-          "?udefwellcome"
-        ],
-        "descriptions": "Removes the bot as an authentication method on the welcome channel"
-      },
-      {
-        "commands": [
-          "?udfw"
-        ],
-        "descriptions": "Removes the bot as an authentication method on the welcome channel"
-      },
-      {
-        "commands": [
-          "?reactionrole \"text\" @role emoji"
-        ],
-        "descriptions": "Reaction roles. You can enter up to 10 roles at a time."
-      },
-      {
-        "commands": [
-          "?rr \"text\" @role emoji"
-        ],
-        "descriptions": "Reaction roles. You can enter up to 10 roles at a time."
+        "descriptions": "Add role by reactions. You can add roles with editable texts or by embeds."
       },
       {
         "commands": [
