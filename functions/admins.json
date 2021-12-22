@@ -4,6 +4,12 @@
     "commands": [
       {
         "commands": [
+          "/language language"
+        ],
+        "descriptions": "Translate the bot into Portuguese or English"
+      },
+      {
+        "commands": [
           "/serverinfo"
         ],
         "descriptions": "Displays the number of users and bots on the server"
@@ -82,6 +88,36 @@
       },
       {
         "commands": [
+          "/remove categoryroles"
+        ],
+        "descriptions": "Remove all permissions (roles) from a category"
+      },
+      {
+        "commands": [
+          "/remove allroles"
+        ],
+        "descriptions": "Remove all roles from the server, with the exception of bot roles"
+      },
+      {
+        "commands": [
+          "/remove allchannels"
+        ],
+        "descriptions": "Remove all categories and channels from the server"
+      },
+      {
+        "commands": [
+          "/remove arole"
+        ],
+        "descriptions": "Remove a role from the server"
+      },
+      {
+        "commands": [
+          "/remove channelroles"
+        ],
+        "descriptions": "Remove all permissions (roles) from a channel"
+      },
+      {
+        "commands": [
           "/membersrole"
         ],
         "descriptions": "Remove a role from all members"
@@ -106,75 +142,81 @@
       },
       {
         "commands": [
-          "?roletime time @role emoji"
+          "/add roletime"
         ],
-        "descriptions": "Offers a position for a period of time in seconds. (e.g. ;rt 60 @role emoji)."
+        "descriptions": "Offers a role for a period of time in seconds"
       },
       {
         "commands": [
-          "?rt life @role emoji"
+          "/add newrole"
         ],
-        "descriptions": "Offers a position for a period of time in seconds. (e.g. ;rt 60 @role emoji)."
+        "descriptions": "Add a new role to the server"
       },
       {
         "commands": [
-          "?defchatguild channel-name"
-        ],
-        "descriptions": "Defines a channel as chatguild. With this channel, owners and admins will be able to communicate with other owners and admins."
-      },
-      {
-        "commands": [
-          " ?dfcg channel-name"
+          "/define chatguild"
         ],
         "descriptions": "Defines a channel as chatguild. With this channel, owners and admins will be able to communicate with other owners and admins."
       },
       {
         "commands": [
-          "?udefchatguild channel-name"
+          "/undefine uchatguild"
         ],
         "descriptions": " Defines a channel as not being a chatguild"
       },
       {
         "commands": [
-          "?udcg channel-name"
-        ],
-        "descriptions": "Defines a channel as not being a chatguild"
-      },
-      {
-        "commands": [
-          "?listguild "
-        ],
-        "descriptions": "Displays the possible chatguild servers"
-      },
-      {
-        "commands": [
-          " ?lgd"
-        ],
-        "descriptions": "Displays the possible chatguild servers"
-      },
-      {
-        "commands": [
-          "?chatguild ID-server \"Message\" "
+          "/serverchat"
         ],
         "descriptions": "Sends a message to the server informed by the ID"
       },
       {
         "commands": [
-          "?cgd ID-server \"Message\""
-        ],
-        "descriptions": "Sends a message to the server informed by the ID"
-      },
-      {
-        "commands": [
-          "?youtube url-link "
+          "/youtube"
         ],
         "descriptions": "See the number of views, genres and tags used by youtubers"
       },
       {
         "commands": [
-          "?yt url-link"
+          "/botchat"
         ],
-        "descriptions": "See the number of views, genres and tags used by youtubers"
+        "descriptions": "Send a message with embed or as a robot"
+      },
+      {
+        "commands": [
+          "/define newticket"
+        ],
+        "descriptions": "Creates a category for the tickets (secret channels) of the server."
+      },
+      {
+        "commands": [
+          "/advertising shareserver"
+        ],
+        "descriptions": "Enable your server to be shared with other users"
+      },
+      {
+        "commands": [
+          "/backup start"
+        ],
+        "descriptions": "Backup the entire server"
+      },
+      {
+        "commands": [
+          "/backup load"
+        ],
+        "descriptions": "Use backup to restore your server channels"
+      },
+      {
+        "commands": [
+          "/backup newserver"
+        ],
+        "descriptions": "Clone a server that used the /backup start command"
+      },
+      {
+        "commands": [
+          "/backup newserver"
+        ],
+        "descriptions": "Clone a server that used the /backup start command"
       }
     ]
   }
