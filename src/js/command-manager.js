@@ -54,7 +54,7 @@ const ButtonState = (state) => {
                 "2px solid #f04747";
         case "security":
             document.getElementById("BtnSecurity").style.borderBottom =
-                "2px solid #14006d";
+                "2px solid #0084FF";
             break;
     }
 };

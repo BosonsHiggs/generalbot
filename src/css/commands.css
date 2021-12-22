@@ -369,11 +369,11 @@ header .container .header-menu-container .header-state h6 {
 }
 
 .security {
-    color: #14006d !important;
+    color: #0084FF !important;
 }
 
 .securityBorder {
-    border-bottom: 2px solid #14006d;
+    border-bottom: 2px solid #0084FF;
 }
 
 .container .body .commands-container .commands-body {
