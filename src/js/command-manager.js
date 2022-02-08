@@ -10,8 +10,8 @@ var pathOrigin = window.location.origin;
 const deployState = true;
 
 if (pathOrigin == "http://localhost" || deployState == false)
-    pathOrigin = `${pathOrigin}/generalbot`;
-else pathOrigin = `${pathOrigin}/generalbot`;
+    pathOrigin = `${pathOrigin}`;
+else pathOrigin = `${pathOrigin}`;
 
 const LangValidate = (lang) => {
     const langSystem = navigator.language;
