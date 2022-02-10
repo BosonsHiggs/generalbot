@@ -47,8 +47,8 @@
             "Delete a certain number of messages": "Deleta um certo número de mensagens",
             "Delete all messages from a channel": "Deleta todas as mensagens de um canal",
             "Lists user invites": "Mostra os convites dos usuários",
-            "Locks a channel, except for \"@role\" If \"#channel-name\" is not informed, the current channel will be blocked You can also use only ?lock to lock for everyone.": "Bloqueia um canal, exceto por \"@cargo\" se \"#nome-do-canal\" se não informado, o canal atual será bloqueado. Você também pode usar ?lock para bloquear para todos.",
-            "Unlocks a channel, except for \"@role\" If \"#channel-name\" is not informed, the current channel will be blocked You can also use only ?unlock to unlock for everyone.": "Desbloqueia um canal, exceto por \"@cargo\" se \"#nome-do-canal\" se não informado, o canal atual será desbloqueado. Você também pode usar ?unlocklock para bloquear para todos.",
+            "Locks a channel": "Bloqueia um canal",
+            "Unlocks a channel": "Desbloqueia um canal",
             "Defines a channel for users to request help from the staff": "Define um canal para requisitar ajuda da administração",
             "Removes the staff help channel": "Remove um canal de ajuda pela administração",
             "Set the user input channel": "Define um canal como o canal de comandos",
@@ -64,7 +64,10 @@
             "Randomly selects a user who has a specific role": "Seleciona aleatoriamente um usuário que tem um cargo específico",
             "Adds questions to the game quiz": "Adiciona perguntas para o jogo do quiz",
             "Delete a question or the entire quiz": "Exclui uma questão ou o quiz inteiro",
-            "Copy an existing quiz from the server using your ID": "Copia um quiz do servidor usando seu ID"
+            "Copy an existing quiz from the server using your ID": "Copia um quiz do servidor usando seu ID",
+            "Mute a user, that is, the user will not be able to send messages on the server":"Silenciar um usuário, ou seja, o usuário não poderá enviar mensagens no servidor",
+            "Unmute a user":"Dessilenciar um usuário",
+            "Add banner to member input channel":"Adicionar banner ao canal de entrada de membros"
         },
         "ADMINS": {
             "Ban a user": "Banir um usuário",
@@ -116,7 +119,7 @@
         "SECURITY": {
             "User must be the owner of the server... GeneralBot will protect 100% if it is the only administrative bot on the server!":"O usuário deve ser o proprietário do servidor... O GeneralBot protegerá 100% se for o único bot administrativo no servidor!",
             "Enable GeneralBot security module. Remembering that #channel is the channel that will receive security notifications":"Ative o módulo de segurança GeneralBot. Lembrando que o #canal é o canal que receberá as notificações de segurança",
-            "Disable the GeneralBot security module":"Desative o módulo de segurança GeneralBot",
+            "Disable the GeneralBot security module":"Desativar o módulo de segurança GeneralBot",
             "Add a user or multiple users to the whitelist":"Adicionar um usuário ou vários usuários à lista de permissões",
             "Remove a user from the whitelist":"Remover um usuário da lista de permissões"
         }
