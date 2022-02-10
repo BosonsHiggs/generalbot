@@ -113,6 +113,12 @@
             "Adds a delay (slowmode) to text channels":"Adiciona um atraso (modo lento) aos canais de texto",
             "Displays the number of members in a role":"Exibe o número de membros com um cargo"
         },
-        "SECURITY": {}
+        "SECURITY": {
+            "User must be the owner of the server... GeneralBot will protect 100% if it is the only administrative bot on the server!":"O usuário deve ser o proprietário do servidor... O GeneralBot protegerá 100% se for o único bot administrativo no servidor!",
+            "Enable GeneralBot security module. Remembering that #channel is the channel that will receive security notifications":"Ative o módulo de segurança GeneralBot. Lembrando que o #canal é o canal que receberá as notificações de segurança",
+            "Disable the GeneralBot security module":"Desative o módulo de segurança GeneralBot",
+            "Add a user or multiple users to the whitelist":"Adicionar um usuário ou vários usuários à lista de permissões",
+            "Remove a user from the whitelist":"Remover um usuário da lista de permissões"
+        }
     }
 }
