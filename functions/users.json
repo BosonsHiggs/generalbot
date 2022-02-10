@@ -1,6 +1,25 @@
 [{
     "permission": "Any user can use these commands",
-    "commands": [{
+    "commands": [
+        {
+            "commands": [
+                "/support"
+            ],
+            "descriptions": "Link to our support server: suggestions, bugs, complaints or partnerships with creators"
+        },
+        {
+            "commands": [
+                "/suggestion"
+            ],
+            "descriptions": "Submit a suggestion for improvement or new command. The 'url_image' and 'color_hex' parameters are optional"
+        },
+        {
+            "commands": [
+                "/bug"
+            ],
+            "descriptions": "Report a bug. The 'url_image' and 'color_hex' parameters are optional"
+        },
+        {
             "commands": [
                 "/help"
             ],
@@ -8,195 +27,99 @@
         },
         {
             "commands": [
-                "?ajuda"
+                "/insert buttonlink"
             ],
-            "descriptions": "Return a list of available commands."
+            "descriptions": "Add buttons with weblinks to messages"
         },
         {
             "commands": [
-                "?hp"
+                "/insert embed"
             ],
-            "descriptions": "Return a list of available commands."
+            "descriptions": "Send a message formatted in an embed. The 'url_image', 'color_hex' and '@member' parameters are optional"
         },
         {
             "commands": [
-                "?eu"
+                "/insert react"
+            ],
+            "descriptions": "Add reactions to messages"
+        },
+        {
+            "commands": [
+                "/convert inembed"
+            ],
+            "descriptions": "Convert the last channel message to embed. You can convert other messages using the message ID in the \"messageid\" field"
+        },
+        {
+            "commands": [
+                "/userinfo"
             ],
             "descriptions": "Return your user information."
         },
         {
             "commands": [
-                "?sobre @*user*"
-            ],
-            "descriptions": "Return information from other users."
-        },
-        {
-            "commands": [
-                "?myinvite"
+                "/myinvite"
             ],
             "descriptions": "Creates a link to the channel by the informed ID If ID is empty, creates a link to the current channel."
         },
         {
             "commands": [
-                "?miv #channel-name"
-            ],
-            "descriptions": "Creates a link to the channel by the informed ID If ID is empty, creates a link to the current channel."
-        },
-        {
-            "commands": [
-                "?ping"
+                "/botinfo"
             ],
             "descriptions": "Returns the average bot response time."
         },
         {
             "commands": [
-                "?mat"
+                "/math"
             ],
             "descriptions": "Returns the result of a mathematical operation."
         },
         {
             "commands": [
-                "?math"
-            ],
-            "descriptions": "Returns the result of a mathematical operation."
-        },
-        {
-            "commands": [
-                "?m mathematical-operation"
-            ],
-            "descriptions": "Returns the result of a mathematical operation."
-        },
-        {
-            "commands": [
-                "?arcade"
-            ],
-            "descriptions": "Checks if there is any beta game."
-        },
-        {
-            "commands": [
-                "?dicio"
+                "/dicio"
             ],
             "descriptions": "Search for the definition or classification of a word in Portuguese [br] or English [us]."
         },
         {
             "commands": [
-                "?dic"
+                "/sortnum"
             ],
-            "descriptions": "Search for the definition or classification of a word in Portuguese [br] or English [us]."
+            "descriptions": "Sort a number between a range (eg. sortnum 1-100)"
         },
         {
             "commands": [
-                "?dc \"word\""
+                "/sort"
             ],
-            "descriptions": "Search for the definition or classification of a word in Portuguese [br] or English [us]."
+            "descriptions": "Sort a word among others. Don't forget to separate with a comma! (ex. grape, pear, apple)"
         },
         {
             "commands": [
-                "?translate"
-            ],
-            "descriptions": "Translate a word into Portuguese[br]."
-        },
-        {
-            "commands": [
-                "?traduzir"
+                "/translate"
             ],
             "descriptions": "Translate a word into Portuguese[br]."
         },
         {
             "commands": [
-                "?trans language text"
-            ],
-            "descriptions": "Translate a word into Portuguese[br]."
-        },
-        {
-            "commands": [
-                "?sortnum None interval"
-            ],
-            "descriptions": "Draws a number between a range (eg. sortnum 1-10)."
-        },
-        {
-            "commands": [
-                "?sortenum None"
-            ],
-            "descriptions": "Draws a number between a range (eg. sortnum 1-10)."
-        },
-        {
-            "commands": [
-                "?sort None"
-            ],
-            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-        },
-        {
-            "commands": [
-                "?sorte None"
-            ],
-            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-        },
-        {
-            "commands": [
-                "?sortear None"
-            ],
-            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-        },
-        {
-            "commands": [
-                "?sorteio None"
-            ],
-            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-        },
-        {
-            "commands": [
-                "?escolher None"
-            ],
-            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-        },
-        {
-            "commands": [
-                "?choose None"
-            ],
-            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-        },
-        {
-            "commands": [
-                "?pick None"
-            ],
-            "descriptions": "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple)."
-        },
-        {
-            "commands": [
-                "?staffajuda \"text\""
+                "/helpstaff"
             ],
             "descriptions": "Send a message to the staff channel."
         },
         {
             "commands": [
-                "?sta \"text\""
-            ],
-            "descriptions": "Send a message to the staff channel."
-        },
-        {
-            "commands": [
-                "?meajude"
-            ],
-            "descriptions": "Help the bot's creators."
-        },
-        {
-            "commands": [
-                "?ma"
-            ],
-            "descriptions": "Help the bot's creators."
-        },
-        {
-            "commands": [
-                "?botinvite @bot-name"
+                "botinvite"
             ],
             "descriptions": "Creates an invitation link to another bot."
         },
         {
             "commands": [
-                "?bi @bot-name"
+                "/timein"
             ],
-            "descriptions": "Creates an invitation link to another bot."
+            "descriptions": "Saves the current time of any activity"
+        },
+        {
+            "commands": [
+                "/timeout"
+            ],
+            "descriptions": "Analyze current activity and return total time"
         }
     ]
 }]

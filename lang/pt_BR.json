@@ -20,7 +20,18 @@
             "Draw a word among others. Don't forget to separate with a comma! (ex. sort grape, pear, apple).": "Desenhe uma palavra entre outras. Não se esqueça de separar com uma vírgula! (ex. tipo uva, pêra, maçã).",
             "Send a message to the staff channel.": "Envie uma mensagem para o canal da equipe.",
             "Help the bot's creators.": "Ajude os criadores do bot.",
-            "Creates an invitation link to another bot.": "Cria um link de convite para outro bot."
+            "Creates an invitation link to another bot.": "Cria um link de convite para outro bot.",
+            "Link to our support server: suggestions, bugs, complaints or partnerships with creators":"Link para nosso servidor de suporte: sugestões, bugs, reclamações ou parcerias com criadores",
+            "Submit a suggestion for improvement or new command. The 'url_image' and 'color_hex' parameters are optional":"Envie uma sugestão de melhoria ou novo comando. Os parâmetros 'url_image' e 'color_hex' são opcionais",
+            "Report a bug. The 'url_image' and 'color_hex' parameters are optional":"Reportar um erro. Os parâmetros 'url_image' e 'color_hex' são opcionais",
+            "Add buttons with weblinks to messages":"Adicionar botões com links da web às mensagens",
+            "Send a message formatted in an embed. The 'url_image', 'color_hex' and '@member' parameters are optional":"Envie uma mensagem formatada em uma incorporação. Os parâmetros 'url_image', 'color_hex' e '@member' são opcionais",
+            "Add reactions to messages":"Adicionar reações às mensagens",
+            "Convert the last channel message to embed. You can convert other messages using the message ID in the \"messageid\" field":"Converta a última mensagem do canal para incorporar. Você pode converter outras mensagens usando o ID da mensagem no campo \"messageid\"",
+            "Sort a number between a range (eg. sortnum 1-100)":"Sorteia um número entre um intervalo (por exemplo, sortnum 1-100)",
+            "Sort a word among others. Don't forget to separate with a comma! (ex. grape, pear, apple)":"Sorteia uma palavra entre outras. Não esqueça de separar com vírgula! (ex. uva, pêra, maçã)",
+            "Saves the current time of any activity":"Salva o tempo atual de qualquer atividade",
+            "Analyze current activity and return total time":"Analisar a atividade atual e retornar o tempo total"
         },
         "GAMES": {
             "Displays the 5 highest scores in ednaldos.": "Mostra as 5 maiores pontuações em ednaldo",
