@@ -118,9 +118,15 @@
       },
       {
         "commands": [
-          "/membersrole"
+          "/remove membersrole"
         ],
         "descriptions": "Remove a role from all members"
+      },
+      {
+        "commands": [
+          "/remove allnicks"
+        ],
+        "descriptions": "Remove nickname from all server members"
       },
       {
         "commands": [
@@ -148,15 +154,39 @@
       },
       {
         "commands": [
+          "/add slowmode"
+        ],
+        "descriptions": "Adds a delay (slowmode) to text channels"
+      },
+      {
+        "commands": [
           "/add newrole"
         ],
         "descriptions": "Add a new role to the server"
       },
       {
         "commands": [
+          "/display roleusers"
+        ],
+        "descriptions": "Displays the number of members in a role"
+      },
+      {
+        "commands": [
           "/define chatguild"
         ],
         "descriptions": "Defines a channel as chatguild. With this channel, owners and admins will be able to communicate with other owners and admins."
+      },
+      {
+        "commands": [
+          "/define newticket"
+        ],
+        "descriptions": "Creates a category for the tickets (secret channels) of the server."
+      },
+      {
+        "commands": [
+          "/define level"
+        ],
+        "descriptions": "Measure member interaction level. It will display a message when the user sends a certain amount of messages that will be defined by you"
       },
       {
         "commands": [
@@ -180,13 +210,7 @@
         "commands": [
           "/botchat"
         ],
-        "descriptions": "Send a message with embed or as a robot"
-      },
-      {
-        "commands": [
-          "/define newticket"
-        ],
-        "descriptions": "Creates a category for the tickets (secret channels) of the server."
+        "descriptions": "Send a message as a bot"
       },
       {
         "commands": [
@@ -196,27 +220,15 @@
       },
       {
         "commands": [
-          "/backup start"
+          "/advertising bump"
         ],
-        "descriptions": "Backup the entire server"
+        "descriptions": "Share your Discord server on our Discord Server"
       },
       {
         "commands": [
-          "/backup load"
+          "/clone category"
         ],
-        "descriptions": "Use backup to restore your server channels"
-      },
-      {
-        "commands": [
-          "/backup newserver"
-        ],
-        "descriptions": "Clone a server that used the /backup start command"
-      },
-      {
-        "commands": [
-          "/backup newserver"
-        ],
-        "descriptions": "Clone a server that used the /backup start command"
+        "descriptions": "Clone a category and all its channels"
       }
     ]
   }

@@ -94,7 +94,7 @@
             "Sends a message to the server informed by the ID": "Envia a mesagem para o servidor no ID informado",
             "See the number of views, genres and tags used by youtubers": "Mostra o número de visualizações, gêneros e tags usadas por youtubers",
             "Remove all permissions (roles) from a category":"Remover todas as permissões (cargos) de uma categoria",
-            "Send a message with embed or as a robot":"Enviar uma mensagem com embed ou como um robô",
+            "Send a message as a bot":"Enviar uma mensagem como um robô",
             "Creates a category for the tickets (secret channels) of the server.":"Cria uma categoria para os tickets (canais secretos) do servidor.",
             "Enable your server to be shared with other users":"Habilitar seu servidor para ser compartilhado com outros usuários",
             "Backup the entire server":"Fazer backup do servidor inteiro",
@@ -106,7 +106,12 @@
             "Remove a role from the server":"Remover um cargo do servidor",
             "Offers a role for a period of time in seconds":"Oferece um cargo por um período de tempo em segundos",
             "Remove all permissions (roles) from a channel":"Remova todas as permissões (cargos) de um canal",
-            "Add a new role to the server":"Adicionar um novo cargo ao servidor"
+            "Add a new role to the server":"Adicionar um novo cargo ao servidor",
+            "Clone a category and all its channels":"Clonar uma categoria e todos os seus canais",
+            "Measure member interaction level. It will display a message when the user sends a certain amount of messages that will be defined by you":"Meça o nível de interação do membro. Ele exibirá uma mensagem quando o usuário enviar uma certa quantidade de mensagens que serão definidas por você",
+            "Share your Discord server on our Discord Server":"Divulga o seu servidor da Discord no nosso servidor de divulgações",
+            "Adds a delay (slowmode) to text channels":"Adiciona um atraso (modo lento) aos canais de texto",
+            "Displays the number of members in a role":"Exibe o número de membros com um cargo"
         },
         "SECURITY": {}
     }

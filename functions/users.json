@@ -2,7 +2,7 @@
     "permission": "Any user can use these commands",
     "commands": [{
             "commands": [
-                "?help"
+                "/help"
             ],
             "descriptions": "Return a list of available commands."
         },
