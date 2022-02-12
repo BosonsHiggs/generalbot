@@ -125,7 +125,8 @@
             "Measure member interaction level. It will display a message when the user sends a certain amount of messages that will be defined by you":"Meça o nível de interação do membro. Ele exibirá uma mensagem quando o usuário enviar uma certa quantidade de mensagens que serão definidas por você",
             "Share your Discord server on our Discord Server":"Divulga o seu servidor da Discord no nosso servidor de divulgações",
             "Adds a delay (slowmode) to text channels":"Adiciona um atraso (modo lento) aos canais de texto",
-            "Displays the number of members in a role":"Exibe o número de membros com um cargo"
+            "Displays the number of members in a role":"Exibe o número de membros com um cargo",
+            "Edit permissions for a role or member in a channel":"Editar permissões para um cargo ou membro em um canal"
         },
         "SECURITY": {
             "User must be the owner of the server... GeneralBot will protect 100% if it is the only administrative bot on the server!":"O usuário deve ser o proprietário do servidor... O GeneralBot protegerá 100% se for o único bot administrativo no servidor!",
