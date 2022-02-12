@@ -32,7 +32,6 @@ const ManagerLoader = (state) => {
 
 const ButtonState = (state) => {
     document.getElementById("BtnUsers").style.borderBottom = "none";
-    document.getElementById("BtnGames").style.borderBottom = "none";
     document.getElementById("BtnStaff").style.borderBottom = "none";
     document.getElementById("BtnAdmins").style.borderBottom = "none";
     document.getElementById("BtnSecurity").style.borderBottom = "none";
@@ -40,10 +39,6 @@ const ButtonState = (state) => {
         case "users":
             document.getElementById("BtnUsers").style.borderBottom =
                 "2px solid #43b581";
-            break;
-        case "games":
-            document.getElementById("BtnGames").style.borderBottom =
-                "2px solid #7289da";
             break;
         case "staff":
             document.getElementById("BtnStaff").style.borderBottom =
@@ -99,11 +94,11 @@ const SwitchCommands = (commands) => {
     const lang = LangValidate(paramLang);
     ManagerLoader(true);
     ButtonState(commands);
-    const command = ["users", "games", "staff", "admins", "security"];
+    const command = ["users", "staff", "admins", "security"];
     const modelCommand = commands.toUpperCase();
     if (command.indexOf(commands) > -1) {
         if (lang == "pt_BR")
-            $.getJSON(`${pathOrigin}/lang/${lang}.json`, function(jsonLang) {
+            $.getJSON(`/lang/${lang}.json`, function(jsonLang) {
                 ViewCreate(commands, modelCommand, jsonLang);
             });
         else ViewCreate(commands, modelCommand, "");
