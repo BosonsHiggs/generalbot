@@ -3,6 +3,7 @@
         "Any user can use these commands": "Qualquer usuário pode usar esses comandos.",
         "Staffers must have permission to \"channel manager\"": "Os funcionários devem ter permissão para \"Gerente de Canal\"",
         "Users must have permission from \"Administrator\"": "Os usuários devem ter permissão de \"Administrador\"",
+        "User must be the owner of the server... GeneralBot will protect 100% if it is the only administrative bot on the server!": "O usuário deve ser o proprietário do servidor... O GeneralBot protegerá 100% se for o único bot administrativo no servidor!",
         "description edit": "Descrição editar"
     },
     "COMMANDS": {
@@ -129,7 +130,6 @@
             "Edit permissions for a role or member in a channel":"Editar permissões para um cargo ou membro em um canal"
         },
         "SECURITY": {
-            "User must be the owner of the server... GeneralBot will protect 100% if it is the only administrative bot on the server!":"O usuário deve ser o proprietário do servidor... O GeneralBot protegerá 100% se for o único bot administrativo no servidor!",
             "Enable GeneralBot security module. Remembering that #channel is the channel that will receive security notifications":"Ative o módulo de segurança GeneralBot. Lembrando que o #canal é o canal que receberá as notificações de segurança",
             "Disable the GeneralBot security module":"Desativar o módulo de segurança GeneralBot",
             "Add a user or multiple users to the whitelist":"Adicionar um usuário ou vários usuários à lista de permissões",
