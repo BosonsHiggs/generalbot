@@ -3,8 +3,7 @@
         "Any user can use these commands": "Qualquer usuário pode usar esses comandos.",
         "Staffers must have permission to \"channel manager\"": "Os funcionários devem ter permissão para \"Gerente de Canal\"",
         "Users must have permission from \"Administrator\"": "Os usuários devem ter permissão de \"Administrador\"",
-        "User must be the owner of the server... GeneralBot will protect 100% if it is the only administrative bot on the server!": "O usuário deve ser o proprietário do servidor... O GeneralBot protegerá 100% se for o único bot administrativo no servidor!",
-        "description edit": "Descrição editar"
+        "User must be the owner of the server... GeneralBot will protect 100% if it is the only administrative bot on the server!": "O usuário deve ser o proprietário do servidor... O GeneralBot protegerá 100% se for o único bot administrativo no servidor!"
     },
     "COMMANDS": {
         "USERS": {
