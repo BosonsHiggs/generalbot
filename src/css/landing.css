@@ -1,0 +1,161 @@
+.landing-page{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url(../imgs/waves.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid white;
+}
+
+.landing-content{
+    max-width: 650px;
+    margin: 60px 60px;
+}
+
+.landing-info h2{
+    color: var(--main-color);
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.landing-info h2 span{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.landing-info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: rgb(201, 201, 201);
+}
+
+.add-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: solid 2px white;
+    background-color: white;
+}
+
+.support-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: solid 2px white;
+    color: white;
+}
+
+.ckecklabel{
+    display: none;
+}
+
+#check{
+    z-index: 3;
+    display: none;
+}
+
+@media (max-width: 1000px) {
+
+    .ckecklabel{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .ckecklabel .close-btn{
+        display: none;
+    }
+
+    #check:checked ~ header .navigation{
+        z-index: 2;
+        position: fixed;
+        background-color: #0099ffe6;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #check:checked ~ header .navigation a{
+        font-weight: 700;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    #check:checked ~ header .ckecklabel .menu-btn{
+        display: none;
+    }
+
+    #check:checked ~ header .ckecklabel .close-btn{
+        z-index: 2;
+        display: block;
+        position: fixed;
+    }
+
+    .ckecklabel .menu-btn {
+        position: absolute;
+    }
+
+    header .logo{
+        position: absolute;
+        bottom: -6px;
+    }
+
+    .landing-content .landing-info h2{
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .landing-content .landing-info h2 span{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .landing-content .landing-info p{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    
+    .landing-content .landing-info h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .landing-content .landing-info h2 span{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .landing-content .landing-info p{
+        font-size: 10px;
+    }
+
+    .landing-content .add-btn, .support-btn{
+        padding: 10px 12px;
+        font-size: 8px;
+    }
+
+}
