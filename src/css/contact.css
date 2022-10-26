@@ -108,5 +108,10 @@
         margin-top: 20px;
         display: block;
     }
+    
+    .credits-title h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
 
 }
