@@ -1,0 +1,55 @@
+.premium-page{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.premium-content{
+    max-width: 650px;
+    margin: 60px 60px;
+}
+
+.premium-title h2{
+    color: var(--main-color);
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.premium-title p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.buy-btn{
+    color: rgb(255, 234, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid rgb(255, 234, 0);
+    font-weight: 700;
+    line-height: 60px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.premium-box p{
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+
+    .premium-content .premium-title h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+}
