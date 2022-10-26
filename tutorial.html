@@ -28,24 +28,24 @@
         <div class="container">
             <div class="header-options-container">
                 <div class="header-logo">
-                    <img src="./assets/img/logo.png" alt="" />
+                    <img src="./assets/img/logo.png" alt=""/>
                     <span>GeneralBot</span>
                 </div>
                 <button id="MenuButtom" class="header-menu-button" onclick="MenuManager()">
-          <i class="fas fa-bars"></i>
-        </button>
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
             <div id="HeaderMenuContainer" class="header-menu-container">
                 <div class="header-options">
                     <a href="#" class="select option-init">Home</a>
                     <a href="commands.html">Commands</a>
-                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="tutorial.html">Tutorials</a>
                     <a href="https://www.patreon.com/bosonshiggs">Donate</a>
                 </div>
-                <div class="header-state" id="StatesContainer" style="display: none;">
+                <div class="header-state">
                     <i class="fas fa-robot"></i>
                     <h5>Status:</h5>
-                    <h6 id="StateText" class="online">ONLINE</h6>
+                    <h6 class="online">ONLINE</h6>
                 </div>
             </div>
         </div>
@@ -53,19 +53,12 @@
     <div class="content-body">
         <div class="container">
             <div class="body">
-                <h1>This is GeneralBot!</h1>
+                <h1>Precisa de ajuda?</h1>
                 <p>
-                    GeneralBot is a moderation bot with commands for admins, staff and everyone.
+                    Produzimos alguns videos tutorias para ajudar a usar o GeneralBot!
                 </p>
-                <img src="./assets/img/ChatRobot.svg" alt="" />
-                <div class="contant-button">
-                    <a href="https://discord.com/api/oauth2/authorize?client_id=741788327572668486&permissions=8&scope=bot%20applications.commands" class="button-add-discord">
-                        <i class="fab fa-discord"></i>
-                        <h6>Add GeneralBot to your server</h6>
-                    </a>
-                    <a href="./commands.html" class="button-resurces">
-                        <h6>Ver Recursos</h6>
-                    </a>
+                <div>
+                    <iframe id="ytplayer" type="text/html" width="640" height="360" src="http://www.youtube.com/embed?listType=user_uploads&list=Gamekiks" frameborder="0" />
                 </div>
             </div>
         </div>
@@ -75,38 +68,37 @@
                     <div class="discord-servidor-support">
                         <i class="fab fa-discord"></i>
                         <div class="text-aling">
-                            <h6>Join our discord server for support!</h6>
+                            <h6>Entre em nosso servidor no discord para suporte!</h6>
                             <a href="https://discord.gg/gSHCMPe">Entrar no servidor</a>
                         </div>
                     </div>
                     <div class="doar-content">
                         <p>
-                            Liked? To encourage us and keep the project going, donate as much as you can!
+                            Gostou? Para nos incentivar e fazer com que o projeto continue faça uma doação
                         </p>
                         <a href="https://www.patreon.com/bosonshiggs"><i class="fab fa-cc-paypal"></i>
-                            <span>Donate</span></a>
+                            <span>Fazer uma doação</span>
+                        </a>
                     </div>
                 </div>
                 <div class="bottom-content">
                     <div class="info">
                         <h3>GeneralBot</h3>
                         <p>
-                            GeneralBot is a moderation bot with commands for admins, staff and everyone.
+                            O GeneralBot é um bot de administrador com comandos para
+                            administradores, funcionários e usuários comuns.
                         </p>
                         <h6>Copyright © 2020 - 2022 GeneralBot</h6>
                     </div>
                     <div class="lang-container">
                         <div class="lang-content">
                             <img src="./assets/img/lang/pt_BR.png" alt=""/>
-                            <span>Brazil</span>
+                            <span>Brasil</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+      </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="./src/js/bot-state-manager.js"></script>
-</body>
-
+  </body>
 </html>

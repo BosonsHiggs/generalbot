@@ -1,0 +1,241 @@
+[
+  {
+    "permission": "Users must have permission from \"Administrator\"",
+    "commands": [
+      {
+        "commands": [
+          "/language language"
+        ],
+        "descriptions": "Translate the bot into Portuguese or English"
+      },
+      {
+        "commands": [
+          "/serverinfo"
+        ],
+        "descriptions": "Displays the number of users and bots on the server"
+      },
+      {
+        "commands": [
+          "/ban"
+        ],
+        "descriptions": "Ban a user"
+      },
+      {
+        "commands": [
+          "/unban"
+        ],
+        "descriptions": "Unban a user"
+      },
+      {
+        "commands": [
+          "/kick"
+        ],
+        "descriptions": " Kick a user"
+      },
+      {
+        "commands": [
+          "/mute"
+        ],
+        "descriptions": "Mute a user, that is, the user will not be able to send messages on the server"
+      },
+      {
+        "commands": [
+          "/unmute"
+        ],
+        "descriptions": "Unmute a user"
+      },
+      {
+        "commands": [
+          "/make textchannel"
+        ],
+        "descriptions": "Creates a normal text channel."
+      },
+      {
+        "commands": [
+          "/make voicechannel"
+        ],
+        "descriptions": "Creates a normal voice channel."
+      },
+      {
+        "commands": [
+          "/make ptextchannel"
+        ],
+        "descriptions": "Creates a secret text channel."
+      },
+      {
+        "commands": [
+          "/make pvoicechannel"
+        ],
+        "descriptions": "Creates a secret voice channel."
+      },
+      {
+        "commands": [
+          "/make category"
+        ],
+        "descriptions": "Creates a category on the server"
+      },
+      {
+        "commands": [
+          "/remove categorychannels"
+        ],
+        "descriptions": "Deletes a category and all existing channels in the same"
+      },
+      {
+        "commands": [
+          "/remove urole"
+        ],
+        "descriptions": "Removes an role from the user user"
+      },
+      {
+        "commands": [
+          "/remove categoryroles"
+        ],
+        "descriptions": "Remove all permissions (roles) from a category"
+      },
+      {
+        "commands": [
+          "/remove allroles"
+        ],
+        "descriptions": "Remove all roles from the server, with the exception of bot roles"
+      },
+      {
+        "commands": [
+          "/remove allchannels"
+        ],
+        "descriptions": "Remove all categories and channels from the server"
+      },
+      {
+        "commands": [
+          "/remove arole"
+        ],
+        "descriptions": "Remove a role from the server"
+      },
+      {
+        "commands": [
+          "/remove channelroles"
+        ],
+        "descriptions": "Remove all permissions (roles) from a channel"
+      },
+      {
+        "commands": [
+          "/remove membersrole"
+        ],
+        "descriptions": "Remove a role from all members"
+      },
+      {
+        "commands": [
+          "/remove allnicks"
+        ],
+        "descriptions": "Remove nickname from all server members"
+      },
+      {
+        "commands": [
+          "/add roleall"
+        ],
+        "descriptions": "Add a role to all members"
+      },
+      {
+        "commands": [
+          "/add role"
+        ],
+        "descriptions": "Add a role to a specific member"
+      },
+      {
+        "commands": [
+          "/add reactionrole"
+        ],
+        "descriptions": "Add role by reactions. You can add roles with editable texts or by embeds."
+      },
+      {
+        "commands": [
+          "/add roletime"
+        ],
+        "descriptions": "Offers a role for a period of time in seconds"
+      },
+      {
+        "commands": [
+          "/add slowmode"
+        ],
+        "descriptions": "Adds a delay (slowmode) to text channels"
+      },
+      {
+        "commands": [
+          "/add newrole"
+        ],
+        "descriptions": "Add a new role to the server"
+      },
+      {
+        "commands": [
+          "/display roleusers"
+        ],
+        "descriptions": "Displays the number of members in a role"
+      },
+      {
+        "commands": [
+          "/define chatguild"
+        ],
+        "descriptions": "Defines a channel as chatguild. With this channel, owners and admins will be able to communicate with other owners and admins."
+      },
+      {
+        "commands": [
+          "/define newticket"
+        ],
+        "descriptions": "Creates a category for the tickets (secret channels) of the server."
+      },
+      {
+        "commands": [
+          "/define level"
+        ],
+        "descriptions": "Measure member interaction level. It will display a message when the user sends a certain amount of messages that will be defined by you"
+      },
+      {
+        "commands": [
+          "/undefine uchatguild"
+        ],
+        "descriptions": " Defines a channel as not being a chatguild"
+      },
+      {
+        "commands": [
+          "/serverchat"
+        ],
+        "descriptions": "Sends a message to the server informed by the ID"
+      },
+      {
+        "commands": [
+          "/youtube"
+        ],
+        "descriptions": "See the number of views, genres and tags used by youtubers"
+      },
+      {
+        "commands": [
+          "/botchat"
+        ],
+        "descriptions": "Send a message as a bot"
+      },
+      {
+        "commands": [
+          "/advertising shareserver"
+        ],
+        "descriptions": "Enable your server to be shared with other users"
+      },
+      {
+        "commands": [
+          "/advertising bump"
+        ],
+        "descriptions": "Share your Discord server on our Discord Server"
+      },
+      {
+        "commands": [
+          "/clone category"
+        ],
+        "descriptions": "Clone a category and all its channels"
+      },
+      {
+        "commands": [
+          "/edit channelpermission"
+        ],
+        "descriptions": "Edit permissions for a role or member in a channel"
+      }
+    ]
+  }
+]

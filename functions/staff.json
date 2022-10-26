@@ -1,0 +1,133 @@
+[
+  {
+    "permission": "Staffers must have permission to \"channel manager\"",
+    "commands": [
+      {
+        "commands": [
+          "/clear"
+        ],
+        "descriptions": "Delete a certain number of messages"
+      },
+      {
+        "commands": [
+          "/clear_all"
+        ],
+        "descriptions": "Delete all messages from a channel"
+      },
+      {
+        "commands": [
+          "/invites"
+        ],
+        "descriptions": "Lists user invites"
+      },
+      {
+        "commands": [
+          "/mute"
+        ],
+        "descriptions": "Mute a user, that is, the user will not be able to send messages on the server"
+      },
+      {
+        "commands": [
+          "/unmute"
+        ],
+        "descriptions": "Unmute a user"
+      },
+      {
+        "commands": [
+          "/lock"
+        ],
+        "descriptions": "Locks a channel"
+      },
+      {
+        "commands": [
+          "/unlock"
+        ],
+        "descriptions": "Unlocks a channel"
+      },
+      {
+        "commands": [
+          "/staffchat enable"
+        ],
+        "descriptions": "Defines a channel for users to request help from the staff"
+      },
+      {
+        "commands": [
+          "/staffchat disable"
+        ],
+        "descriptions": "Removes the staff help channel"
+      },
+      {
+        "commands": [
+          "/wellcomechannel enableinput"
+        ],
+        "descriptions": "Set the user input channel"
+      },
+      {
+        "commands": [
+          "/wellcomechannel banner"
+        ],
+        "descriptions": "Add banner to member input channel"
+      },
+      {
+        "commands": [
+          "/wellcomechannel disableinput"
+        ],
+        "descriptions": "Defines the channel as not being user input"
+      },
+      {
+        "commands": [
+          "/wellcomechannel enableoutput"
+        ],
+        "descriptions": "Sets the user output channel"
+      },
+      {
+        "commands": [
+          "/wellcomechannel disableoutput"
+        ],
+        "descriptions": "Defines the channel as not being an user output"
+      },
+      {
+        "commands": [
+          "/wellcomechannel enableban"
+        ],
+        "descriptions": "Sets a channel to display banned users"
+      },
+      {
+        "commands": [
+          "/wellcomechannel disableban"
+        ],
+        "descriptions": "Defines the channel as not being banned users"
+      },
+      {
+        "commands": [
+          "/rename voicechl"
+        ],
+        "descriptions": "Renames a voice channel to \"{'Sets the user output channel'}\""
+      },
+      {
+        "commands": [
+          "/rename textchl"
+        ],
+        "descriptions": "Renames a text channel to \"{'Sets the user output channel'}\""
+      },
+      {
+        "commands": [
+          "/statschannel enablestats"
+        ],
+        "descriptions": "Creates status channels, which show the number of users and bots on the server"
+      },
+      {
+        "commands": [
+          "/statschannel disablestats"
+        ],
+        "descriptions": "Removes status channels"
+      },
+      {
+        "commands": [
+          "/sorterole"
+        ],
+        "descriptions": "Randomly selects a user who has a specific role"
+      }
+    ]
+  }
+]

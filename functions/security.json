@@ -1,0 +1,29 @@
+[{
+    "permission": "User must be the owner of the server... GeneralBot will protect 100% if it is the only administrative bot on the server!",
+    "commands": [
+    {
+        "commands": [
+            "/security enable"
+        ],
+        "descriptions": "Enable GeneralBot security module. Remembering that #channel is the channel that will receive security notifications"
+    },
+    {
+        "commands": [
+            "/security disable"
+        ],
+        "descriptions": "Disable the GeneralBot security module"
+    },
+    {
+        "commands": [
+            "/security adduser"
+        ],
+        "descriptions": "Add a user or multiple users to the whitelist"
+    },
+    {
+        "commands": [
+            "/security rmuser"
+        ],
+        "descriptions": "Remove a user from the whitelist"
+    }
+]
+}]
