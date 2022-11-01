@@ -9,7 +9,7 @@
 
 ## Authors
 
-- [@Francisco Araújo](https://github.com/FranciscoAraujo2)
+[@Francisco Araújo](https://github.com/FranciscoAraujo2)
 
 
 ## Support
